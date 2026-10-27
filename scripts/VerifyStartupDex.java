@@ -5,7 +5,7 @@ import com.android.tools.smali.dexlib2.iface.*;
 import com.android.tools.smali.dexlib2.iface.instruction.*;
 import com.android.tools.smali.dexlib2.iface.reference.*;
 
-/** Checks the compiled image-opacity regression, circular clipping and motion. */
+/** Checks the compiled image-opacity regression, square image and startup motion. */
 public class VerifyStartupDex {
     public static void main(String[] args) throws Exception {
         byte[] bytes;
@@ -37,8 +37,9 @@ public class VerifyStartupDex {
             }
         }
         if (floatAlpha<2) throw new AssertionError("Missing float opacity calls");
-        for (String call : List.of("setImageAlpha","setClipToOutline","setShape","floatMotion","setRepeatMode"))
-            if (!calls.contains(call)) throw new AssertionError("Missing circular image/motion call: "+call);
-        System.out.println("PASS: compiled startup code uses float opacity, explicit opaque bitmap, circular clipping and repeating text motion.");
+        for (String call : List.of("setImageAlpha","floatMotion","setRepeatMode"))
+            if (!calls.contains(call)) throw new AssertionError("Missing image/motion call: "+call);
+        if (calls.contains("drawArc") || calls.contains("setClipToOutline")) throw new AssertionError("Circular startup graphics must be absent");
+        System.out.println("PASS: opaque square startup image, no circular graphics, and preserved text motion.");
     }
 }

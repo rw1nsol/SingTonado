@@ -2450,14 +2450,14 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 16,
-    "versionName": "1.6.9",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.9/SingTonado.apk",
+    "versionCode": 17,
+    "versionName": "1.6.10",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.10/SingTonado.apk",
     "bytes": 25851140,
-    "sha256": "2e00075c384e1a5a9beafa064159eec9cba7037ae79146c014b34843e660a49b",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.9",
+    "sha256": "59cdf45b6225c0207aacf580d496670a2d9c4cdd8fb76e189f2c6bce4601288b",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.10",
     "notes": [
-      "Fix the invisible startup picture by using the View opacity animation instead of ImageView bitmap opacity. Show the supplied artwork in a large circular gold frame above SingTonado. Add gentle floating motion to the picture, app name and tagline, with a readable hold and reduced-motion support. Preserve the simplified download-progress screen and Settings fix."
+      "Remove the circular startup indicator/orbit and circular picture frame. Display the supplied picture in a square above SingTonado. Preserve the visible-picture fix, gentle text animation, reading time and download-progress screen."
     ],
     "minSdk": 26
   },

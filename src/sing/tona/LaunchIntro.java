@@ -17,7 +17,6 @@ import android.graphics.Paint;
 import android.graphics.RadialGradient;
 import android.graphics.Shader;
 import android.graphics.Typeface;
-import android.graphics.drawable.GradientDrawable;
 import android.os.SystemClock;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -77,7 +76,6 @@ public final class LaunchIntro {
         private boolean exiting;
         private long remainingHold = READABLE_HOLD_MS;
         private long holdStart;
-        private final long animationStart = SystemClock.uptimeMillis();
 
         IntroFrame(Activity activity, ViewGroup content) {
             super(activity);
@@ -116,13 +114,6 @@ public final class LaunchIntro {
             else logo.setImageResource(0x7f050021);
             logo.setImageAlpha(255);
             logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
-            GradientDrawable roundFrame = new GradientDrawable();
-            roundFrame.setShape(GradientDrawable.OVAL);
-            roundFrame.setColor(0xFF080C28);
-            roundFrame.setStroke(dp(2), 0xFFFFD76D);
-            logo.setBackground(roundFrame);
-            logo.setPadding(dp(5), dp(5), dp(5), dp(5));
-            logo.setClipToOutline(true);
             logo.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
             LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(280), dp(280));
             logoParams.bottomMargin = dp(20);
@@ -281,19 +272,7 @@ public final class LaunchIntro {
                     new int[]{0x603F126D, 0x003F126D}, null, Shader.TileMode.CLAMP));
             canvas.drawRect(0, 0, w, h, paint);
             paint.setShader(null);
-            float orbit = Math.min(w * 0.41f, h * 0.25f);
-            paint.setStyle(Paint.Style.STROKE);
-            paint.setStrokeWidth(dp(1));
-            paint.setColor(0x286C8DFF);
-            float turn = ValueAnimator.areAnimatorsEnabled() ? (SystemClock.uptimeMillis() - animationStart) * 0.009f : 0;
-            float cy = h * 0.41f;
-            canvas.drawArc(w / 2 - orbit, cy - orbit, w / 2 + orbit, cy + orbit,
-                    -60 + turn, 125, false, paint);
-            paint.setColor(0x28FFCB59);
-            canvas.drawArc(w / 2 - orbit, cy - orbit, w / 2 + orbit, cy + orbit,
-                    120 + turn, 80, false, paint);
-            paint.setStyle(Paint.Style.FILL);
-            if (!detached && !exiting && ValueAnimator.areAnimatorsEnabled()) postInvalidateOnAnimation();
+
         }
     }
 }
