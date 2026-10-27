@@ -8,6 +8,10 @@ import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import java.io.InputStream;
+import java.io.IOException;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RadialGradient;
@@ -99,11 +103,16 @@ public final class LaunchIntro {
             addView(stack, stackParams);
 
             logo = new ImageView(activity);
-            int resource = getResources().getIdentifier("singtonado_mark", "drawable", activity.getPackageName());
-            logo.setImageResource(resource != 0 ? resource : 0x7f050021);
+            // Load the supplied picture directly, independent of resource-name lookup.
+            Bitmap startupPicture = null;
+            try (InputStream image = activity.getAssets().open("singtonado-startup.png")) {
+                startupPicture = BitmapFactory.decodeStream(image);
+            } catch (IOException ignored) { }
+            if (startupPicture != null) logo.setImageBitmap(startupPicture);
+            else logo.setImageResource(0x7f050021);
             logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
             logo.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
-            LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(210), dp(210));
+            LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(280), dp(280));
             logoParams.bottomMargin = dp(20);
             stack.addView(logo, logoParams);
 
@@ -144,7 +153,7 @@ public final class LaunchIntro {
             super.onSizeChanged(width, height, oldWidth, oldHeight);
             if (logo == null) return;
             int availableHeight = height - getPaddingTop() - getPaddingBottom();
-            int edge = Math.min(dp(240), Math.min((width - getPaddingLeft() - getPaddingRight()) * 2 / 3,
+            int edge = Math.min(dp(300), Math.min((width - getPaddingLeft() - getPaddingRight()) * 4 / 5,
                     Math.max(dp(70), availableHeight - dp(185))));
             LinearLayout.LayoutParams p = (LinearLayout.LayoutParams) logo.getLayoutParams();
             if (p.width != edge || p.height != edge) { p.width = p.height = edge; logo.setLayoutParams(p); }

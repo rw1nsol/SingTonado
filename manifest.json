@@ -2450,13 +2450,13 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 12,
-    "versionName": "1.6.5",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.5/SingTonado.apk",
-    "bytes": 23901369,
-    "sha256": "5acf6db690a7235ac447cc0d0511a9c821ab029727c5ab5c1e72e74f75553811",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.5",
-    "notes": "Fix the Settings force close caused by invalid 64-bit argument registers in the About section. Preserve app data, offline library, artwork, animated introduction and GitHub update/resource downloads.\n",
+    "versionCode": 13,
+    "versionName": "1.6.6",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.6/SingTonado.apk",
+    "bytes": 25851140,
+    "sha256": "0e021fd0774ab4275979af302525db921e1dd1fd1196db171cbebe1909f4b4af",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.6",
+    "notes": "Display the supplied SingTonado picture prominently above the SingTonado name at startup. Load the picture directly from the packaged asset, preserve its proportions, and retain the animated entrance, tagline and reading time. Includes the Settings crash fix from 1.6.5.\n",
     "minSdk": 26
   },
   "sponsors": []
