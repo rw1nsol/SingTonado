@@ -49,7 +49,9 @@ def main():
         raise RuntimeError('This release is already public; publish a new version instead of changing it.')
     for path in (apk,manifest_path,sums):
         call(['release','upload',tag,str(path),'--repo',repository,'--clobber'])
-    release=json.loads(call(['api',f'repos/{repository}/releases/tags/{tag}']).stdout)
+    # GitHub does not resolve unpublished draft tags through the by-tag endpoint.
+    releases=json.loads(call(['api',f'repos/{repository}/releases?per_page=100']).stdout)
+    release=next(item for item in releases if item['tag_name']==tag)
     asset=next(a for a in release['assets'] if a['name']=='SingTonado.apk')
     assert asset['size']==apk.stat().st_size
     if asset.get('digest'): assert asset['digest']=='sha256:'+digest

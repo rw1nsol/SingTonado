@@ -2450,13 +2450,13 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 11,
-    "versionName": "1.6.4",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.4/SingTonado.apk",
+    "versionCode": 12,
+    "versionName": "1.6.5",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.5/SingTonado.apk",
     "bytes": 23901369,
-    "sha256": "f6a61ecdd3c616f65378285bdf668117e34d374ac1bf662ffd274aa1e52c95ff",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.4",
-    "notes": "SingTonado 1.6.4 adds public GitHub resource downloads and automatic app-update checks.\n\n- Download songs, sound banks and backgrounds directly from rw1nsol/SingTonado.\n- Automatic update detection with SHA-256, package/version and signing-certificate validation.\n- Android still asks for approval before installing an update.\n- Keeps the supplied SingTonado artwork and animated opening with \"Birit kung birit, kahit sintunado!\"\n- Existing SingTonado installations can update without clearing their data.\n\nThe complete offline library is available in the separate SingTonado Offline Library v1 release.\n",
+    "sha256": "5acf6db690a7235ac447cc0d0511a9c821ab029727c5ab5c1e72e74f75553811",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.5",
+    "notes": "Fix the Settings force close caused by invalid 64-bit argument registers in the About section. Preserve app data, offline library, artwork, animated introduction and GitHub update/resource downloads.\n",
     "minSdk": 26
   },
   "sponsors": []
