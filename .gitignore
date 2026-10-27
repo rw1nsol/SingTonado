@@ -1,0 +1,16 @@
+*.apk
+*.apk.idsig
+*.p12
+*.jks
+*.keystore
+*.sf2
+*.mid
+*.kar
+*.mp4
+*.zip
+*.part
+*password*
+github-auth/
+release-staging/
+__pycache__/
+.env*

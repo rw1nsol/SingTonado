@@ -1,0 +1,19 @@
+{
+  "source_files": 66,
+  "source_bytes": 2410109815,
+  "source_sha256_verified": true,
+  "counts": {
+    "song_files": 47692,
+    "soundfont": 3,
+    "video": 4
+  },
+  "song_extensions": {
+    ".mid": 42780,
+    ".kar": 4912
+  },
+  "archive": "SingTonado-offline-library.zip",
+  "archive_bytes": 1870775720,
+  "archive_sha256": "a46a9395d347a2166b4ec7358a492007bf3f51a5645de1d0768ee519294cb484",
+  "archive_crc_integrity": "passed",
+  "expanded_bytes": 4076208815
+}
