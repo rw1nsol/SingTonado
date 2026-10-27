@@ -41,6 +41,7 @@ public final class LaunchIntro {
     private LaunchIntro() {}
 
     public static void show(Activity activity) {
+        LibraryDownloads.attach(activity);
         ViewGroup content = activity.findViewById(android.R.id.content);
         if (content == null || content.findViewWithTag(TAG) != null || activity.isFinishing()) return;
         IntroFrame intro = new IntroFrame(activity, content);

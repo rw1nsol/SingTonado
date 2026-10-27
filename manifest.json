@@ -2450,13 +2450,13 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 13,
-    "versionName": "1.6.6",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.6/SingTonado.apk",
+    "versionCode": 14,
+    "versionName": "1.6.7",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.7/SingTonado.apk",
     "bytes": 25851140,
-    "sha256": "0e021fd0774ab4275979af302525db921e1dd1fd1196db171cbebe1909f4b4af",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.6",
-    "notes": "Display the supplied SingTonado picture prominently above the SingTonado name at startup. Load the picture directly from the packaged asset, preserve its proportions, and retain the animated entrance, tagline and reading time. Includes the Settings crash fix from 1.6.5.\n",
+    "sha256": "676020d5e4a62089b64cbc8e6245de2fdc8eda3f4d1a3e6e1580bf5b39431616",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.7",
+    "notes": "Add a prominent Download songs button on the main library screen. Download the GitHub-hosted offline library directly inside SingTonado with live progress, pack readiness, pause/resume and an optional Dreamsam sound bank. Completed packs become available automatically without extracting ZIP files or choosing folders. Preserve startup artwork, animation and the Settings crash fix.\n",
     "minSdk": 26
   },
   "sponsors": []
