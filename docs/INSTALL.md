@@ -5,8 +5,8 @@ Requires Android 8.0 or later.
 1. Download `SingTonado.apk` from the latest app release.
 2. Open it and complete Android's installation prompts. If asked, allow installation from the app used to download this APK.
 3. Open SingTonado. The name and tagline animate in, remain fully visible for about five seconds, and fade into the library.
-4. On the main song library screen, tap **DOWNLOAD SONGS**, then **Download / resume library**. The standard download is about **1.09 GB** and includes 59 song packs, Basic and Platinum Major sound banks, and four video backgrounds. Downloads run in the background; completed packs appear automatically. No ZIP extraction or folder selection is required.
-5. Reopen **DOWNLOAD SONGS** to check progress, pause or resume. The **Download Dreamsam** button adds an optional sound bank of about **1.32 GB**. Use Wi-Fi for these downloads.
+4. On the main song library screen, tap **DOWNLOAD SONGS**, then **Download / resume**. The standard download is about **1.09 GB** and includes 59 song packs, Basic and Platinum Major sound banks, and four video backgrounds. Downloads run in the background; completed packs appear automatically. No ZIP extraction or folder selection is required.
+5. Reopen **DOWNLOAD SONGS** to check progress, pause or resume. The app shows download percentage and transferred size; resource listings and hosting details are hidden. Use Wi-Fi for these downloads.
 
 ## Manual offline setup
 

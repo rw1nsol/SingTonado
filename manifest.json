@@ -2450,14 +2450,14 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 14,
-    "versionName": "1.6.7",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.7/SingTonado.apk",
+    "versionCode": 15,
+    "versionName": "1.6.8",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.8/SingTonado.apk",
     "bytes": 25851140,
-    "sha256": "676020d5e4a62089b64cbc8e6245de2fdc8eda3f4d1a3e6e1580bf5b39431616",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.7",
+    "sha256": "d6342d229bc4c083cfd29eddcca43a5033123e7f6ae6615edcf55c6ba9484370",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.8",
     "notes": [
-      "Add a prominent Download songs button on the main library screen. Download the GitHub-hosted offline library directly inside SingTonado with live progress, pack readiness, pause/resume and an optional Dreamsam sound bank. Completed packs become available automatically without extracting ZIP files or choosing folders. Preserve startup artwork, animation and the Settings crash fix."
+      "Simplify the download screen to download progress, percentage, downloaded size, status and pause/resume controls. Remove hosting references, resource listings and optional resource selectors. Downloads continue in the background and completed songs remain available offline."
     ],
     "minSdk": 26
   },

@@ -57,13 +57,9 @@ public final class LibraryDownloads {
         final ExecutorService worker = Executors.newSingleThreadExecutor();
         final LinearLayout content;
         final TextView status;
-        final TextView summary;
         final ProgressBar progress;
         final Button start, pause, refresh;
-        final LinearLayout items;
         final AlertDialog dialog;
-        final List<Object> catalog = new ArrayList<>();
-        final List<TextView> rows = new ArrayList<>();
         final Runnable tick = this::poll;
         Object downloads, store, manifest;
         volatile boolean closed;
@@ -74,22 +70,19 @@ public final class LibraryDownloads {
             content = new LinearLayout(activity);
             content.setOrientation(LinearLayout.VERTICAL);
             content.setPadding(dp(20), dp(8), dp(20), dp(16));
-            summary = label("Download once from GitHub, then sing offline. Songs appear automatically as packs finish. Best on Wi-Fi.", 16);
-            status = label("Connecting to the library…", 15);
+            status = label("Preparing download...", 16);
             progress = new ProgressBar(activity, null, android.R.attr.progressBarStyleHorizontal);
             progress.setMax(100);
             content.addView(progress, new LinearLayout.LayoutParams(-1, dp(12)));
-            start = button("Download / resume library", () -> command(null, false));
+            start = button("Download / resume", () -> command(null, false));
             start.setEnabled(false);
             pause = button("Pause downloads", () -> command(null, true));
             pause.setEnabled(false);
-            refresh = button("Refresh library", this::load);
-            items = new LinearLayout(activity);
-            items.setOrientation(LinearLayout.VERTICAL);
-            content.addView(items);
+            refresh = button("Retry", this::load);
+            refresh.setVisibility(View.GONE);
             ScrollView scroll = new ScrollView(activity);
             scroll.addView(content);
-            dialog = new AlertDialog.Builder(activity).setTitle("SingTonado offline library")
+            dialog = new AlertDialog.Builder(activity).setTitle("Download progress")
                     .setView(scroll).setPositiveButton("Back to songs", (d, which) -> { })
                     .create();
             dialog.setOnDismissListener(d -> {
@@ -120,7 +113,8 @@ public final class LibraryDownloads {
         void load() {
             if (closed || loading) return;
             loading = true; refresh.setEnabled(false);
-            status.setText("Checking GitHub for songs and sounds…");
+            refresh.setVisibility(View.GONE);
+            status.setText("Checking download status...");
             worker.execute(() -> {
                 try {
                     Object container = call(activity.getApplication(), "getContainer");
@@ -131,53 +125,18 @@ public final class LibraryDownloads {
                     catch (Exception fetchError) {
                         manifest = call(store, "manifest");
                         if (manifest == null) throw fetchError;
-                        warning = "Using the saved catalog. GitHub is currently unreachable: " + error(fetchError);
+                        warning = "Offline. Downloaded files are kept.";
                     }
-                    List<?> entries = (List<?>) call(manifest, "getItems");
-                    catalog.clear(); catalog.addAll(entries);
-                    long normal = 0, optional = 0; int packs = 0;
-                    for (Object item : catalog) {
-                        long bytes = (Long) call(item, "getBytes");
-                        if ((Boolean) call(item, "getOptional")) optional += bytes; else normal += bytes;
-                        if ("songs".equals(call(item, "getKind"))) packs++;
-                    }
-                    final long total = normal, extra = optional;
-                    final int packCount = packs;
                     final String note = warning;
                     ui(() -> {
                         loading = false; refresh.setEnabled(true); start.setEnabled(true); pause.setEnabled(true);
-                        summary.setText(packCount + " song packs, Basic and Platinum Major sounds, and video backgrounds.\nLibrary download: " + size(total)
-                                + ". Optional sounds: " + size(extra) + ".\nDownloads are saved inside SingTonado; no ZIP extraction or folder setup is needed.");
-                        start.setText("Download / resume library · " + size(total));
-                        status.setText(note == null ? "Library ready. Tap Download / resume library to begin." : note);
-                        populate();
+                        status.setText(note == null ? "Ready. Tap Download / resume to begin." : note);
                         main.removeCallbacks(tick); main.postDelayed(tick, 1200);
                     });
                 } catch (Exception exception) {
-                    ui(() -> { loading = false; refresh.setEnabled(true); status.setText("Could not load the library. Check your internet connection and tap Refresh.\n" + error(exception)); });
+                    ui(() -> { loading = false; refresh.setEnabled(true); refresh.setVisibility(View.VISIBLE); status.setText("Could not connect. Check your internet connection and tap Retry."); });
                 }
             });
-        }
-        void populate() {
-            items.removeAllViews(); rows.clear();
-            for (Object item : catalog) {
-                try {
-                    String name = (String) call(item, "getName");
-                    String kind = (String) call(item, "getKind");
-                    String id = (String) call(item, "getId");
-                    boolean optional = (Boolean) call(item, "getOptional");
-                    if (optional) {
-                        Button extra = new Button(activity);
-                        extra.setText("Download " + name + " · " + size((Long) call(item, "getBytes")) + " (optional)");
-                        extra.setAllCaps(false); extra.setOnClickListener(v -> command(id, false));
-                        items.addView(extra);
-                    }
-                    TextView row = new TextView(activity);
-                    row.setTextSize(14); row.setPadding(0, dp(7), 0, dp(7));
-                    row.setText(name + " · " + kind);
-                    items.addView(row); rows.add(row);
-                } catch (Exception exception) { status.setText("Catalog error: " + error(exception)); }
-            }
         }
         void command(String id, boolean stopping) {
             if (downloads == null || closed) return;
@@ -188,7 +147,7 @@ public final class LibraryDownloads {
                 status.setText(stopping ? "Paused. Downloaded files are kept; tap Download / resume to continue."
                         : "Download queued. You can return to the song list while it runs.");
                 main.removeCallbacks(tick); main.postDelayed(tick, 1200);
-            } catch (Exception exception) { status.setText("Could not change the download: " + error(exception)); }
+            } catch (Exception exception) { status.setText("Could not change the download. Tap Retry."); refresh.setVisibility(View.VISIBLE); }
         }
         void poll() {
             if (closed || loading || downloads == null) return;
@@ -198,27 +157,17 @@ public final class LibraryDownloads {
                     Object state = Class.forName("kotlinx.coroutines.flow.StateFlow").getMethod("getValue").invoke(flow);
                     int percent = (Integer) call(state, "getPercent");
                     long done = (Long) call(state, "getDoneBytes"), total = (Long) call(state, "getTotalBytes");
-                    int packs = (Integer) call(state, "getPacksReady");
-                    String current = (String) call(state, "getCurrent");
                     boolean complete = (Boolean) call(state, "getComplete");
                     boolean paused = (Boolean) call(downloads, "getUserPaused");
                     String work = workStatus();
-                    String headline = complete ? "Library downloaded. Ready to sing offline."
+                    String headline = complete ? "Download complete. Ready to sing offline."
                             : paused ? "Paused. Your downloaded files are kept."
                             : work;
-                    final String message = headline + "\n" + size(done) + " / " + size(total) + " · " + packs + " song packs ready"
-                            + (current == null ? "" : "\n" + current);
-                    List<String> captions = new ArrayList<>();
-                    Class<?> itemType = Class.forName("sing.tona.download.AssetItem");
-                    for (Object item : catalog) {
-                        boolean ready = (Boolean) store.getClass().getMethod("isDone", itemType).invoke(store, item);
-                        captions.add((ready ? "✓ Ready · " : "○ ") + call(item, "getName") + " · " + size((Long) call(item, "getBytes")));
-                    }
+                    final String message = headline + "\n" + percent + "%  " + size(done) + " / " + size(total);
                     ui(() -> {
                         progress.setProgress(percent); status.setText(message);
-                        for (int i=0; i<rows.size() && i<captions.size(); i++) rows.get(i).setText(captions.get(i));
                     });
-                } catch (Exception exception) { ui(() -> status.setText("Progress unavailable. Tap Refresh to retry.\n" + error(exception))); }
+                } catch (Exception exception) { ui(() -> { status.setText("Progress unavailable. Tap Retry."); refresh.setVisibility(View.VISIBLE); }); }
                 finally { ui(() -> main.postDelayed(tick, 2000)); }
             });
         }
@@ -230,18 +179,17 @@ public final class LibraryDownloads {
                 List<?> work = (List<?>) future.get(3, TimeUnit.SECONDS);
                 for (Object info : work) {
                     String state = call(info, "getState").toString();
-                    if ("RUNNING".equals(state)) return "Downloading from GitHub…";
+                    if ("RUNNING".equals(state)) return "Downloading...";
                     if ("ENQUEUED".equals(state) || "BLOCKED".equals(state)) return "Queued. Waiting for an internet connection…";
                 }
                 if (!work.isEmpty()) {
                     Object info = work.get(work.size()-1);
                     if ("FAILED".equals(call(info, "getState").toString())) {
-                        String reason = (String) textCall(call(info, "getOutputData"), "getString", "error");
-                        return "Download stopped. Tap Download / resume to retry." + (reason == null ? "" : "\n" + reason);
+                        return "Download stopped. Tap Download / resume to retry.";
                     }
                 }
             } catch (Exception ignored) { }
-            return "Tap Download / resume library to continue.";
+            return "Tap Download / resume to continue.";
         }
     }
 }

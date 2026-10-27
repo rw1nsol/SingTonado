@@ -14,7 +14,7 @@ Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound
 
 The complete library contains **47,692 songs**, **three sound banks** (Basic, Platinum Major, Dreamsam), and **four video backgrounds**. The ZIP is about **1.87 GB** and expands to approximately **4.08 GB**.
 
-Tap **DOWNLOAD SONGS** on the app's main library screen, then **Download / resume library**. The standard offline library is about **1.09 GB**, with optional Dreamsam at **1.32 GB**. Completed song packs appear automatically, and the download panel provides progress and pause/resume controls.
+Tap **DOWNLOAD SONGS** on the app's main library screen, then **Download / resume**. The standard offline library is about **1.09 GB**, with additional sound banks available through Sound settings. Completed song packs appear automatically, and the download panel shows only progress and pause/resume controls.
 
 The app downloads resource packs from this repository's Releases. Downloads can resume, and their SHA-256 hashes are checked. It automatically checks the public release manifest for app updates; Android requires approval to install an update. Future app releases must use the same signing key.
 
