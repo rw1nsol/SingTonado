@@ -2456,7 +2456,9 @@
     "bytes": 25851140,
     "sha256": "676020d5e4a62089b64cbc8e6245de2fdc8eda3f4d1a3e6e1580bf5b39431616",
     "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.7",
-    "notes": "Add a prominent Download songs button on the main library screen. Download the GitHub-hosted offline library directly inside SingTonado with live progress, pack readiness, pause/resume and an optional Dreamsam sound bank. Completed packs become available automatically without extracting ZIP files or choosing folders. Preserve startup artwork, animation and the Settings crash fix.\n",
+    "notes": [
+      "Add a prominent Download songs button on the main library screen. Download the GitHub-hosted offline library directly inside SingTonado with live progress, pack readiness, pause/resume and an optional Dreamsam sound bank. Completed packs become available automatically without extracting ZIP files or choosing folders. Preserve startup artwork, animation and the Settings crash fix."
+    ],
     "minSdk": 26
   },
   "sponsors": []

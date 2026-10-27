@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse,hashlib,json,subprocess,shutil,os,re
 from apk_metadata import inspect_apk
+from validate_manifest import validate_manifest
 
 def main():
     parser=argparse.ArgumentParser()
@@ -29,7 +30,9 @@ def main():
         'apk':f'https://github.com/{repository}/releases/download/{tag}/SingTonado.apk',
         'bytes':apk.stat().st_size,'sha256':digest,
         'page':f'https://github.com/{repository}/releases/tag/{tag}',
-        'notes':args.notes.read_text(encoding='utf-8'),'minSdk':metadata.get('minSdkVersion',26)}
+        'notes':[line.strip() for line in args.notes.read_text(encoding='utf-8').splitlines() if line.strip()],
+        'minSdk':metadata.get('minSdkVersion',26)}
+    validate_manifest(manifest)
     manifest_path=staging/'manifest.json'
     manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     shutil.copyfile(manifest_path,repo_root/'manifest.json')
