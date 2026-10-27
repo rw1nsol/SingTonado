@@ -2450,14 +2450,14 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 15,
-    "versionName": "1.6.8",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.8/SingTonado.apk",
+    "versionCode": 16,
+    "versionName": "1.6.9",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.9/SingTonado.apk",
     "bytes": 25851140,
-    "sha256": "d6342d229bc4c083cfd29eddcca43a5033123e7f6ae6615edcf55c6ba9484370",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.8",
+    "sha256": "2e00075c384e1a5a9beafa064159eec9cba7037ae79146c014b34843e660a49b",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.9",
     "notes": [
-      "Simplify the download screen to download progress, percentage, downloaded size, status and pause/resume controls. Remove hosting references, resource listings and optional resource selectors. Downloads continue in the background and completed songs remain available offline."
+      "Fix the invisible startup picture by using the View opacity animation instead of ImageView bitmap opacity. Show the supplied artwork in a large circular gold frame above SingTonado. Add gentle floating motion to the picture, app name and tagline, with a readable hold and reduced-motion support. Preserve the simplified download-progress screen and Settings fix."
     ],
     "minSdk": 26
   },

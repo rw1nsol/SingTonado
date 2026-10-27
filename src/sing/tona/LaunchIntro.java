@@ -17,6 +17,7 @@ import android.graphics.Paint;
 import android.graphics.RadialGradient;
 import android.graphics.Shader;
 import android.graphics.Typeface;
+import android.graphics.drawable.GradientDrawable;
 import android.os.SystemClock;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -24,6 +25,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityManager;
 import android.view.animation.DecelerateInterpolator;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -69,6 +71,7 @@ public final class LaunchIntro {
         private final ArrayList<Integer> accessibilityModes = new ArrayList<>();
         private final Runnable exit = this::leave;
         private AnimatorSet entrance;
+        private AnimatorSet floating;
         private boolean finishedEntrance;
         private boolean detached;
         private boolean exiting;
@@ -111,7 +114,15 @@ public final class LaunchIntro {
             } catch (IOException ignored) { }
             if (startupPicture != null) logo.setImageBitmap(startupPicture);
             else logo.setImageResource(0x7f050021);
+            logo.setImageAlpha(255);
             logo.setScaleType(ImageView.ScaleType.FIT_CENTER);
+            GradientDrawable roundFrame = new GradientDrawable();
+            roundFrame.setShape(GradientDrawable.OVAL);
+            roundFrame.setColor(0xFF080C28);
+            roundFrame.setStroke(dp(2), 0xFFFFD76D);
+            logo.setBackground(roundFrame);
+            logo.setPadding(dp(5), dp(5), dp(5), dp(5));
+            logo.setClipToOutline(true);
             logo.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
             LinearLayout.LayoutParams logoParams = new LinearLayout.LayoutParams(dp(280), dp(280));
             logoParams.bottomMargin = dp(20);
@@ -140,7 +151,9 @@ public final class LaunchIntro {
             LinearLayout.LayoutParams taglineParams = new LinearLayout.LayoutParams(-1, dp(68));
             taglineParams.topMargin = dp(8);
             stack.addView(tagline, taglineParams);
-            logo.setAlpha(0);
+            // ImageView.setAlpha(int) changes the bitmap's own opacity. Use the
+            // float View property so the entrance animation can reveal it.
+            logo.setAlpha(0f);
             title.setAlpha(0);
             tagline.setAlpha(0);
 
@@ -154,7 +167,7 @@ public final class LaunchIntro {
             super.onSizeChanged(width, height, oldWidth, oldHeight);
             if (logo == null) return;
             int availableHeight = height - getPaddingTop() - getPaddingBottom();
-            int edge = Math.min(dp(300), Math.min((width - getPaddingLeft() - getPaddingRight()) * 4 / 5,
+            int edge = Math.min(dp(320), Math.min((width - getPaddingLeft() - getPaddingRight()) * 6 / 7,
                     Math.max(dp(70), availableHeight - dp(185))));
             LinearLayout.LayoutParams p = (LinearLayout.LayoutParams) logo.getLayoutParams();
             if (p.width != edge || p.height != edge) { p.width = p.height = edge; logo.setLayoutParams(p); }
@@ -171,7 +184,7 @@ public final class LaunchIntro {
         void begin() {
             if (detached || finishedEntrance) return;
             if (!ValueAnimator.areAnimatorsEnabled()) {
-                logo.setAlpha(1); title.setAlpha(1); tagline.setAlpha(1);
+                logo.setAlpha(1f); title.setAlpha(1f); tagline.setAlpha(1f);
                 entranceComplete();
                 return;
             }
@@ -192,7 +205,26 @@ public final class LaunchIntro {
 
         private void entranceComplete() {
             finishedEntrance = true;
+            if (ValueAnimator.areAnimatorsEnabled() && remainingHold == READABLE_HOLD_MS) {
+                floating = new AnimatorSet();
+                floating.playTogether(
+                        floatMotion(logo, "translationY", 0f, -dp(6), 1700),
+                        floatMotion(title, "translationY", 0f, -dp(5), 1400),
+                        floatMotion(title, "scaleX", 1f, 1.018f, 1400),
+                        floatMotion(title, "scaleY", 1f, 1.018f, 1400),
+                        floatMotion(tagline, "translationY", 0f, dp(4), 1600));
+                floating.start();
+            }
             scheduleHold();
+        }
+
+        private ObjectAnimator floatMotion(View view, String property, float from, float to, long duration) {
+            ObjectAnimator motion = ObjectAnimator.ofFloat(view, property, from, to);
+            motion.setDuration(duration);
+            motion.setRepeatCount(ValueAnimator.INFINITE);
+            motion.setRepeatMode(ValueAnimator.REVERSE);
+            motion.setInterpolator(new AccelerateDecelerateInterpolator());
+            return motion;
         }
 
         private void scheduleHold() {
@@ -228,6 +260,7 @@ public final class LaunchIntro {
             detached = true;
             removeCallbacks(exit);
             if (entrance != null) entrance.cancel();
+            if (floating != null) floating.cancel();
             animate().cancel();
             for (int i = 0; i < coveredViews.size(); i++)
                 coveredViews.get(i).setImportantForAccessibility(accessibilityModes.get(i));
