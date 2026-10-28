@@ -2,6 +2,8 @@
 
 Requires Android 8.0 or later.
 
+The current APK is **1.6.13**, which fixes the dashboard picture in all Look color themes. Install it over the existing app. The songbook is regenerated from the current local library when reopened; export it again if a previously saved PDF is out of date.
+
 1. Download `SingTonado.apk` from the latest app release.
 2. Open it and complete Android's installation prompts. If asked, allow installation from the app used to download this APK.
 3. Open SingTonado. A large square SingTonado picture with transparent outer corners and margins appears above the name, with no black box or circular startup indicator. The name and tagline animate in and float gently, remain visible for about five seconds, and fade into the library.

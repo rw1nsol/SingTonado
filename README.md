@@ -6,6 +6,8 @@
 
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
+Version **1.6.13** fixes the dashboard icon becoming a solid square in non-green Look themes. The full-color artwork now appears in every palette. [Icon fix and songbook refresh details](docs/DASHBOARD-ICON-FIX.md).
+
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
 - [Current library and lyrics filter](https://github.com/rw1nsol/SingTonado/releases/tag/library-cleanup-v1)
 - [App releases](https://github.com/rw1nsol/SingTonado/releases)
@@ -16,7 +18,7 @@ The current in-app catalogue contains **62,062 MIDI/KAR files**, **eight sound b
 
 Older library releases and the original base offline ZIP are historical snapshots. They include instrumental songs excluded from the current catalogue. Use the in-app downloader for the current filtered library.
 
-In SingTonado 1.6.12, tap **DOWNLOAD SONGS**, then **Download / resume** and allow the download to finish. The downloader replaces 17 changed song packs, removes their superseded cached copies when complete, and refreshes the library. Personal imports are unchanged. Extra sound banks remain available through Sound settings. The download panel shows progress and pause/resume controls. No new APK is required for this library change.
+In SingTonado 1.6.12 or later, tap **DOWNLOAD SONGS**, then **Download / resume** and allow the download to finish. The downloader replaces 17 changed song packs, removes their superseded cached copies when complete, and refreshes the library. Personal imports are unchanged. Extra sound banks remain available through Sound settings. The download panel shows progress and pause/resume controls. No new APK is required for this library change.
 
 The app downloads resource packs from this repository's Releases. Downloads can resume, and their SHA-256 hashes are checked. It automatically checks the public release manifest for app updates; Android requires approval to install an update. Future app releases must use the same signing key.
 

@@ -2707,14 +2707,17 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 19,
-    "versionName": "1.6.12",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.12/SingTonado.apk",
-    "bytes": 26162436,
-    "sha256": "8ebc45c5447d83ddb921291fd756ba209644230babbc8ce13d51f6e3d6b3dcf3",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.12",
+    "versionCode": 20,
+    "versionName": "1.6.13",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.13/SingTonado.apk",
+    "bytes": 26146052,
+    "sha256": "be20541ad52e6568601cf40cf1aaa45cba978a1151528194687269fd09e9be45",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.13",
     "notes": [
-      "Fix the outdated v1.6.0 label on the main tab. Main tab, Settings, About, update notification and diagnostic reports now read the shared installed-build version fields. This release displays 1.6.12 consistently. Preserve startup artwork, animation and download-progress controls."
+      "Fix the dashboard SingTonado picture becoming a solid square when changing Look colors.",
+      "The full-color artwork now appears consistently in Green, Blue, Purple, Rose and Charcoal themes.",
+      "Keeps the current filtered library, including the removal of song 69194. Songs and other media are unchanged.",
+      "Signed with the existing SingTonado key so this APK can update your installed app without uninstalling it."
     ],
     "minSdk": 26
   },

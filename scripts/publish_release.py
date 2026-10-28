@@ -13,7 +13,7 @@ def main():
     parser.add_argument('--prepare-only',action='store_true')
     args=parser.parse_args()
     repo_root=Path(__file__).resolve().parent.parent
-    settings=json.loads((repo_root/'repository.json').read_text())
+    settings=json.loads((repo_root/'repository.json').read_text(encoding='utf-8'))
     repository=settings['repository']; tag='v'+args.version_name
     if not re.fullmatch(r'[0-9A-Za-z._-]+',args.version_name): raise ValueError('Invalid version name')
     metadata=inspect_apk(args.apk)
@@ -24,7 +24,7 @@ def main():
     staging.mkdir(parents=True,exist_ok=True)
     apk=staging/'SingTonado.apk'; shutil.copyfile(args.apk,apk)
     digest=hashlib.file_digest(apk.open('rb'),'sha256').hexdigest()
-    manifest=json.loads((repo_root/'manifests/resources.json').read_text())
+    manifest=json.loads((repo_root/'manifests/resources.json').read_text(encoding='utf-8'))
     manifest['app']={
         'versionCode':args.version_code,'versionName':args.version_name,
         'apk':f'https://github.com/{repository}/releases/download/{tag}/SingTonado.apk',
