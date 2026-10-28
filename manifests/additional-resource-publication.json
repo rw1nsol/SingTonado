@@ -1,0 +1,35 @@
+{
+  "resource_release": "https://github.com/rw1nsol/SingTonado/releases/tag/library-songhub-v1",
+  "latest_app_release": "v1.6.12",
+  "resource_assets_verified": 32,
+  "app_resource_items": 93,
+  "old_resource_items_unchanged": 66,
+  "anonymous_download_samples": [
+    {
+      "kind": "notice",
+      "id": "songhub-resource-notices",
+      "http_status": 206,
+      "first_256_bytes_match": true
+    },
+    {
+      "kind": "songs",
+      "id": "songs-songhub-additions-01",
+      "http_status": 206,
+      "first_256_bytes_match": true
+    },
+    {
+      "kind": "soundfont",
+      "id": "sf-songhub-fluidr3-gm",
+      "http_status": 206,
+      "first_256_bytes_match": true
+    },
+    {
+      "kind": "video",
+      "id": "video-songhub-cute-toddler-in-paradise-island",
+      "http_status": 206,
+      "first_256_bytes_match": true
+    }
+  ],
+  "public_feed_verified": true,
+  "apk_unchanged": true
+}

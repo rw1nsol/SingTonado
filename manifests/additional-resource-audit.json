@@ -1,0 +1,493 @@
+{
+  "source_apk": "songhub.downloadables.1.1.apk.apk",
+  "source_site": "https://songhubdownloads.blogspot.com/",
+  "source_cards": 75,
+  "downloaded_files": 50,
+  "downloaded_bytes": 7021241609,
+  "initial_compatibility_checks": 50,
+  "soundfont_engine": "FluidSynth 2.6.1 desktop sample-note rendering; no phone runtime test",
+  "song_summary": {
+    "source_song_files": 119866,
+    "existing_songs": 47692,
+    "candidate_additions": 22541,
+    "parser_accepted": 22517,
+    "parser_rejected": 24,
+    "additional_metadata_duplicates": 4897,
+    "missing_readable_title": 10,
+    "new_songs": 17610,
+    "with_lyric_text_events": 14845,
+    "new_total_songs": 65302,
+    "song_numbers": [
+      60212,
+      77821
+    ],
+    "packs": 9,
+    "pack_bytes": 226651444,
+    "rmid_unwrapped": 1,
+    "existing_song_numbers_unchanged": true,
+    "personal_import_range_untouched": true
+  },
+  "new_sound_banks": 5,
+  "new_video_backgrounds": 12,
+  "existing_resource_items": 66,
+  "new_resource_items": 27,
+  "total_resource_items": 93,
+  "standard_additional_download_bytes": 1141723143,
+  "optional_sound_bank_bytes": 372623158,
+  "new_resource_bytes": 1514346301,
+  "resource_release": "https://github.com/rw1nsol/SingTonado/releases/tag/library-songhub-v1",
+  "app_update_required": false,
+  "supported_app": "SingTonado 1.6.12",
+  "decisions": [
+    {
+      "name": "FOREST GOLD THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "INK SAVER MONO THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "NEON NIGHT THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "OCEAN BLUE THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SUNSET WARM THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "PLATINUM INSPIRED THEME SONGBOOK",
+      "category": "songbook",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Arachno_SoundFont_-_Version_1.0.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Dream_SAM2634_(ver._2.1).sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "DreamSam 8202 (SPHE).sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "FluidR3_GM.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Published as optional sound bank with redistribution notice"
+    },
+    {
+      "name": "KaraOke_King_v2.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "mega.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "megasoundfont.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "QS6400.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "reyna_se.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Roland_SC-55.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SAM5504B.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SAM5504B_(ver._1.5).sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SAM9703_(vER._2).sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SC88Pro.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SGM-v2.01-NicePianosGuitarsBass-V1.2.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Titanic_200_GM-GS_v1.2.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Vendokaraoke,Style,soundfont.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "WinLive_Karaoke_Mobile.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Winlive_Pro_Mobile_v1.0.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "WinLive_Synth_Driver.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "yamaha_x_korg_x_ketron_x_dream_sam_(custom_made_by_jc).sf2",
+      "category": "sf2",
+      "status": "unavailable",
+      "action": "Unavailable from the supplied public download link (HTTP 403)"
+    },
+    {
+      "name": "Cute Toddler in Paradise Island",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Nature's Beautiful Flowers",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "NEON DISCO",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Motor Racing",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Motor Racing Woman",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Beautiful Beaches",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Cute Filipina",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "CUTE 3D ANIMALS DANCING",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "CUTE 3D ANIMALS",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "48k MIDI/KAR",
+      "category": "midi",
+      "status": "available",
+      "action": "Validated and deduplicated; new playable files repackaged with unused song numbers"
+    },
+    {
+      "name": "FluidR3_GM2-2.SF2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Published as optional sound bank with redistribution notice"
+    },
+    {
+      "name": "GeneralUser GS v1.471.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Published as optional sound bank with redistribution notice"
+    },
+    {
+      "name": "SGM-V2.01.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Timbres Of Heaven GM_GS_XG_SFX V 3.4 Final.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "SongHub Version 2.42.67 Build 242.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SongHub Version 3.1.67 Build 301.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SongHub Version 4.15.67 Build 415.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SongHub Version 4.16.67 Build 416.apk - LATEST",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SongHub Remote Version 3.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "songhub_setup.exe version 1.14",
+      "category": "pc",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "midi masterph.zip",
+      "category": "midi",
+      "status": "available",
+      "action": "Validated and deduplicated; new playable files repackaged with unused song numbers"
+    },
+    {
+      "name": "SET-A.zip",
+      "category": "midi",
+      "status": "available",
+      "action": "Validated and deduplicated; new playable files repackaged with unused song numbers"
+    },
+    {
+      "name": "LeBron James' Top 40 Career Plays",
+      "category": "bgv",
+      "status": "no_direct_file",
+      "action": "External streaming link; no downloadable app resource file"
+    },
+    {
+      "name": "Michael Jordan’s Top 60 Career Plays",
+      "category": "bgv",
+      "status": "no_direct_file",
+      "action": "External streaming link; no downloadable app resource file"
+    },
+    {
+      "name": "Best of Michael Jordan’s Playoff Games | The Jordan Vault",
+      "category": "bgv",
+      "status": "no_direct_file",
+      "action": "External streaming link; no downloadable app resource file"
+    },
+    {
+      "name": "Digidi Digidi - Dj Ilham Karaoke",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Oooh Lala Baby - Baby Dolls (Karaoke Version)",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Na Para Bang - Mariah Deborah (Karaoke Version)",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "GUSTO - Zack Tabudlo ft. Al James (KARAOKE)",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Mahal Magmahal - Esremborak | Karaoke Version",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Ano Ba Talaga Tayo - The Juans feat. Janine Berdin [Karaoke Version]",
+      "category": "yt",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "songhub.offline.songbook.cataglog.v1.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "Click Activate to go to Activation page",
+      "category": "activate",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "16.5mg_gm_gs_mt32_v2.51_bank.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "24.1mg_mega_sound_v2.0_bank.SF2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "27.3mg_symphony_hall_bank.SF2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Published as optional sound bank with redistribution notice"
+    },
+    {
+      "name": "32MbGMStereo[ntonyx.com].sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "41.8mg_saphyr_two_thousand_gm_gs_bank.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "8bitsf.SF2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Acapella GM.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Arachno_SoundFont_Version_1.0.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Aspirin_160_GMGS_2015.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Published as optional sound bank with redistribution notice"
+    },
+    {
+      "name": "CREATIVE_28MBGM.sf2",
+      "category": "sf2",
+      "status": "available",
+      "action": "Downloaded and native-render tested; excluded from public mirror because redistribution terms are unclear or restrictive, or it duplicates another source"
+    },
+    {
+      "name": "Giant Redwoods",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Buhay Probinsya",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "Cute dumpling squishy bgv",
+      "category": "bgv",
+      "status": "available",
+      "action": "Published as video background; redistribution permission confirmed by user"
+    },
+    {
+      "name": "songhub.offline.songbook.catalog.v3.apk",
+      "category": "apk",
+      "status": "not_app_resource",
+      "action": "Not imported: installer, activation link, or printable songbook; not a SingTonado media resource"
+    },
+    {
+      "name": "SongHub Classic Intro/Score Sounds",
+      "category": "assets",
+      "status": "available",
+      "action": "Downloaded and inspected; not bound into app sounds. Five score MP3s are identical, and the current resource feed does not select intro/score MP3 effects"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "version": "213606fbb9bf8b50",
-  "built": "2026-10-19T03:48:59.433Z",
-  "bytes": 2410109815,
+  "version": "resources-5b80bd82e8beecfe",
+  "built": "2026-10-28T01:06:47.100432Z",
+  "bytes": 3924456116,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -662,6 +662,263 @@
       "bytes": 1323085196,
       "sha256": "08b9e1d0d13eaed8eb8248cfcb5e22dc5e8cca161ecac4a50dd774e3f0086f97",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/sf-dreamsam.sf2"
+    },
+    {
+      "id": "songhub-resource-notices",
+      "kind": "notice",
+      "name": "Sound bank licences",
+      "key": "licenses/songhub-resource-notices.txt",
+      "bytes": 5369,
+      "sha256": "f1e47ae42f1a6ba29bb33644d4bcf16bcafd209299a8de4ab99747367222da7f",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/RESOURCE-NOTICES.txt"
+    },
+    {
+      "id": "sf-songhub-fluidr3-gm",
+      "kind": "soundfont",
+      "name": "FluidR3 GM",
+      "optional": true,
+      "key": "soundfonts/songhub-fluidr3-gm.sf2",
+      "bytes": 148358590,
+      "sha256": "eebdac4b1f95625bf2902b77838769111cb478fb9d2c66aa8e9a8ae80fe7d0c0",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-fluidr3-gm.sf2"
+    },
+    {
+      "id": "sf-songhub-fluidr3-gm-violin-fix",
+      "kind": "soundfont",
+      "name": "FluidR3 GM (Violin fix)",
+      "optional": true,
+      "key": "soundfonts/songhub-fluidr3-gm-violin-fix.sf2",
+      "bytes": 148345256,
+      "sha256": "2ae766ab5c5deb6f7fffacd6316ec9f3699998cce821df3163e7b10a78a64066",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-fluidr3-gm-violin-fix.sf2"
+    },
+    {
+      "id": "sf-songhub-generaluser-gs-1471",
+      "kind": "soundfont",
+      "name": "GeneralUser GS 1.471",
+      "optional": true,
+      "key": "soundfonts/songhub-generaluser-gs-1471.sf2",
+      "bytes": 31281186,
+      "sha256": "f45b6b4a68b6bf3d792fcbb6d7de24dc701a0f89c5900a21ef3aaece993b839a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-generaluser-gs-1471.sf2"
+    },
+    {
+      "id": "sf-songhub-symphony-hall",
+      "kind": "soundfont",
+      "name": "Symphony Hall",
+      "optional": true,
+      "key": "soundfonts/songhub-symphony-hall.sf2",
+      "bytes": 28013272,
+      "sha256": "8d546a69f862f53b67bec3aa650cb87cd784f3a5dfe173f0158cf5683fe90357",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-symphony-hall.sf2"
+    },
+    {
+      "id": "sf-songhub-aspirin-gm-gs",
+      "kind": "soundfont",
+      "name": "Aspirin GM/GS",
+      "optional": true,
+      "key": "soundfonts/songhub-aspirin-gm-gs.sf2",
+      "bytes": 16624854,
+      "sha256": "3637780957f63cebf4c69ee48c4b76dcafba7bc162ebf1a3d1ec8fe43e14f4da",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-aspirin-gm-gs.sf2"
+    },
+    {
+      "id": "songs-songhub-additions-01",
+      "kind": "songs",
+      "name": "Additional songs 1/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-01.zip",
+      "bytes": 22375251,
+      "sha256": "1ce57a946009024511eb49d5a53e26273fcfa8148eee1ba96506a6e815fcbd32",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-01.zip"
+    },
+    {
+      "id": "songs-songhub-additions-02",
+      "kind": "songs",
+      "name": "Additional songs 2/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-02.zip",
+      "bytes": 18295657,
+      "sha256": "382a390745116cd31c72fcce12ae2c91f285ad4ca1dfa175f1e25bea102093cd",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-02.zip"
+    },
+    {
+      "id": "songs-songhub-additions-03",
+      "kind": "songs",
+      "name": "Additional songs 3/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-03.zip",
+      "bytes": 23591875,
+      "sha256": "feb3fe6f6f7ae65ffa557d101ba942a79254b1b6756654e96c74e16e14a91947",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-03.zip"
+    },
+    {
+      "id": "songs-songhub-additions-04",
+      "kind": "songs",
+      "name": "Additional songs 4/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-04.zip",
+      "bytes": 29545717,
+      "sha256": "3351c344ea6233085e3be330ceed987c5bd358602a72867ddef37b08c53276cb",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-04.zip"
+    },
+    {
+      "id": "songs-songhub-additions-05",
+      "kind": "songs",
+      "name": "Additional songs 5/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-05.zip",
+      "bytes": 30159740,
+      "sha256": "80f1a1d64aa7e601266ddb5d624958ea83ad21f4c5bdaa6f1b2c1b011097e754",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-05.zip"
+    },
+    {
+      "id": "songs-songhub-additions-06",
+      "kind": "songs",
+      "name": "Additional songs 6/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-06.zip",
+      "bytes": 22559219,
+      "sha256": "e75ac831fff3c6dd686698507ab1d442bf54bc0ca27549333c15ad32f2cbda10",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-06.zip"
+    },
+    {
+      "id": "songs-songhub-additions-07",
+      "kind": "songs",
+      "name": "Additional songs 7/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-07.zip",
+      "bytes": 28115032,
+      "sha256": "b92da6f69cd96ada20a03f0dd6cd41cc4eead6b03c8b5f90b6fe4030199fc2c8",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-07.zip"
+    },
+    {
+      "id": "songs-songhub-additions-08",
+      "kind": "songs",
+      "name": "Additional songs 8/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-08.zip",
+      "bytes": 30936628,
+      "sha256": "48b4a78d847b5b80202bf8bf8443c6614f2cd204aa2bd20b93788cd9add3b3d6",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-08.zip"
+    },
+    {
+      "id": "songs-songhub-additions-09",
+      "kind": "songs",
+      "name": "Additional songs 9/9",
+      "category": "Additional Songs",
+      "key": "packs/songhub-additions-09.zip",
+      "bytes": 21072325,
+      "sha256": "ae7086b32bb242ceae13c5d193819ceb5e957ce886ebd6f8a2abb6865e8deabb",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-09.zip"
+    },
+    {
+      "id": "video-songhub-cute-toddler-in-paradise-island",
+      "kind": "video",
+      "name": "Cute Toddler in Paradise Island",
+      "key": "videos/songhub-cute-toddler-in-paradise-island.mp4",
+      "bytes": 66515092,
+      "sha256": "815a54839b6672de57f3d1fe8cc61b1b36e2c79a98fe4ae323350e350bf385b2",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-toddler-in-paradise-island.mp4"
+    },
+    {
+      "id": "video-songhub-nature-s-beautiful-flowers",
+      "kind": "video",
+      "name": "Nature's Beautiful Flowers",
+      "key": "videos/songhub-nature-s-beautiful-flowers.mp4",
+      "bytes": 80414567,
+      "sha256": "12ecd0d4e97b99c780232f436de26e79f96ca96d69773d2dc856aac25dbeb052",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-nature-s-beautiful-flowers.mp4"
+    },
+    {
+      "id": "video-songhub-neon-disco",
+      "kind": "video",
+      "name": "NEON DISCO",
+      "key": "videos/songhub-neon-disco.mp4",
+      "bytes": 166151308,
+      "sha256": "c01dd118f4cd3458522f670a1bf260c3c985bcb8dd376d4662d08098c022817f",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-neon-disco.mp4"
+    },
+    {
+      "id": "video-songhub-motor-racing",
+      "kind": "video",
+      "name": "Motor Racing",
+      "key": "videos/songhub-motor-racing.mp4",
+      "bytes": 67990351,
+      "sha256": "259d7dc116eedf2eaf3151f23d2c6ea067168fc46c2a2e29974559d62a1d4560",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-motor-racing.mp4"
+    },
+    {
+      "id": "video-songhub-motor-racing-woman",
+      "kind": "video",
+      "name": "Motor Racing Woman",
+      "key": "videos/songhub-motor-racing-woman.mp4",
+      "bytes": 75544822,
+      "sha256": "b52860a118f5b48f5756ec7e003ccea50112f9eab8974eb104c86c686b4e9ce6",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-motor-racing-woman.mp4"
+    },
+    {
+      "id": "video-songhub-beautiful-beaches",
+      "kind": "video",
+      "name": "Beautiful Beaches",
+      "key": "videos/songhub-beautiful-beaches.mp4",
+      "bytes": 80684222,
+      "sha256": "ad5f184ddd9bc98a7ed8dcacd614f33bb2b659cb0f601ffd6e691bd52e7a8faf",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-beautiful-beaches.mp4"
+    },
+    {
+      "id": "video-songhub-cute-filipina",
+      "kind": "video",
+      "name": "Cute Filipina",
+      "key": "videos/songhub-cute-filipina.mp4",
+      "bytes": 76191098,
+      "sha256": "1184d04206e0382cc87d66a42b40f8c0ca941e6d2a0b4792f3d26b42f75408cc",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-filipina.mp4"
+    },
+    {
+      "id": "video-songhub-cute-3d-animals-dancing",
+      "kind": "video",
+      "name": "CUTE 3D ANIMALS DANCING",
+      "key": "videos/songhub-cute-3d-animals-dancing.mp4",
+      "bytes": 32381802,
+      "sha256": "ed969d7727d20cb514790c04b101777dd92dc586fb9d6dcfb6445500e0633ae2",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-3d-animals-dancing.mp4"
+    },
+    {
+      "id": "video-songhub-cute-3d-animals",
+      "kind": "video",
+      "name": "CUTE 3D ANIMALS",
+      "key": "videos/songhub-cute-3d-animals.mp4",
+      "bytes": 91547655,
+      "sha256": "5b0c2dc639e1e1cb1a369d9758c3e629ecb538c692ce9c6d4cb274819692c6a3",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-3d-animals.mp4"
+    },
+    {
+      "id": "video-songhub-giant-redwoods",
+      "kind": "video",
+      "name": "Giant Redwoods",
+      "key": "videos/songhub-giant-redwoods.mp4",
+      "bytes": 83095678,
+      "sha256": "6cc4000acc2cd94e58b0dfaa11e30aa65a83f222c4ed72f3dcb6bfb9a579a02e",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-giant-redwoods.mp4"
+    },
+    {
+      "id": "video-songhub-buhay-probinsya",
+      "kind": "video",
+      "name": "Buhay Probinsya",
+      "key": "videos/songhub-buhay-probinsya.mp4",
+      "bytes": 64439120,
+      "sha256": "33e29204b4686e95bc65f7762d772d2fa499ef75110d4b53573ba904f4f7c61a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-buhay-probinsya.mp4"
+    },
+    {
+      "id": "video-songhub-cute-dumpling-squishy-bgv",
+      "kind": "video",
+      "name": "Cute dumpling squishy bgv",
+      "key": "videos/songhub-cute-dumpling-squishy-bgv.mp4",
+      "bytes": 30110615,
+      "sha256": "cfb26fb2d27f77eaba71c2d87c41cdc643d09d4f1525190c4c7a113cefe84082",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-dumpling-squishy-bgv.mp4"
     }
   ],
   "retired": [
