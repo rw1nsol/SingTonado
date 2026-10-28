@@ -1,7 +1,7 @@
 {
-  "version": "resources-5b80bd82e8beecfe",
-  "built": "2026-10-28T01:06:47.100432Z",
-  "bytes": 3924456116,
+  "version": "resources-lyrics-c1fdebbc2daf4244",
+  "built": "2026-10-28T02:21:07.346599Z",
+  "bytes": 3858973614,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -174,10 +174,10 @@
       "kind": "songs",
       "name": "International 2/38",
       "category": "International",
-      "key": "packs/02-international-2.zip",
-      "bytes": 10900508,
-      "sha256": "6c85eaca3f4b5d60582340dff8d8982bca14dbd9d6293024567be5f6d098461e",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-2.zip"
+      "key": "packs/lyrics-v1/02-international-2.zip",
+      "bytes": 10622674,
+      "sha256": "bf677d7021774f111babf0227ce1ca90889741b2ced31996f2e0aea58808258a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-2.zip"
     },
     {
       "id": "02-international-3",
@@ -204,60 +204,60 @@
       "kind": "songs",
       "name": "International 5/38",
       "category": "International",
-      "key": "packs/02-international-5.zip",
-      "bytes": 11666784,
-      "sha256": "e5fc0aa6788ab77cea50bc9902e5443c27f448faf35d0febc70e4cc5fa592a9c",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-5.zip"
+      "key": "packs/lyrics-v1/02-international-5.zip",
+      "bytes": 11383994,
+      "sha256": "9bfa27d32c5df1a940faddab52c93b86e2e0d86471763fdd5085a3e34f406e43",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-5.zip"
     },
     {
       "id": "02-international-6",
       "kind": "songs",
       "name": "International 6/38",
       "category": "International",
-      "key": "packs/02-international-6.zip",
-      "bytes": 11570755,
-      "sha256": "9aafb9012577e0b8809e955f1f32853d69fd907917e73b2e04dab17d1a9f25c8",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-6.zip"
+      "key": "packs/lyrics-v1/02-international-6.zip",
+      "bytes": 11265537,
+      "sha256": "a9df9338730fcdcdd4380a3958a9019335e3841b404752226c279c58fa844ff0",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-6.zip"
     },
     {
       "id": "02-international-7",
       "kind": "songs",
       "name": "International 7/38",
       "category": "International",
-      "key": "packs/02-international-7.zip",
-      "bytes": 11122344,
-      "sha256": "a5084ae73b657db7e12ce4e3a154423575c383718bd8ecd08471d81610caccf9",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-7.zip"
+      "key": "packs/lyrics-v1/02-international-7.zip",
+      "bytes": 10839786,
+      "sha256": "37a1da7f1c2ac785c96bb5d38120e908a3584bb8525ad5105929a4f92fc5992a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-7.zip"
     },
     {
       "id": "02-international-8",
       "kind": "songs",
       "name": "International 8/38",
       "category": "International",
-      "key": "packs/02-international-8.zip",
-      "bytes": 10857359,
-      "sha256": "69faf80581664ec91d7a5dc65836e9d70834e7ff236178b187d93d577076eddd",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-8.zip"
+      "key": "packs/lyrics-v1/02-international-8.zip",
+      "bytes": 10570077,
+      "sha256": "e9e9dc0fafa79f80d242a99149275e3f83763afd09107475a33925e90e5c3981",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-8.zip"
     },
     {
       "id": "02-international-9",
       "kind": "songs",
       "name": "International 9/38",
       "category": "International",
-      "key": "packs/02-international-9.zip",
-      "bytes": 11163111,
-      "sha256": "c7595e56a5894e55c037b46d20143af8a2961f96cfda21576ceeb63872b1441d",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-9.zip"
+      "key": "packs/lyrics-v1/02-international-9.zip",
+      "bytes": 10889248,
+      "sha256": "707bc80b22f01d93bfd157b015ac5386456e3c5d24079014463e62dfd58eab16",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-9.zip"
     },
     {
       "id": "02-international-10",
       "kind": "songs",
       "name": "International 10/38",
       "category": "International",
-      "key": "packs/02-international-10.zip",
-      "bytes": 11305809,
-      "sha256": "ce4fca4374d2c78550160869416dbd9cc52a3df878a85dc6652e04c493cd7373",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/02-international-10.zip"
+      "key": "packs/lyrics-v1/02-international-10.zip",
+      "bytes": 11022181,
+      "sha256": "7eae479b7d9bee5464774505222426db9c8bfa79f6d7db7cebfdc1540f623a56",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-02-international-10.zip"
     },
     {
       "id": "02-international-11",
@@ -544,10 +544,10 @@
       "kind": "songs",
       "name": "Christmas",
       "category": "Christmas",
-      "key": "packs/03-christmas-1.zip",
-      "bytes": 6032340,
-      "sha256": "5fd947c080636f8c1f4ea5b971ab9a64df7445bf86cee9992cf92af836a86997",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-v1/03-christmas-1.zip"
+      "key": "packs/lyrics-v1/03-christmas-1.zip",
+      "bytes": 5922748,
+      "sha256": "1bfe23a95f61edc46a4cb39b9834183ebe59f3b93efc48492719c091f8d0aded",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-03-christmas-1.zip"
     },
     {
       "id": "04-worship-1",
@@ -727,90 +727,90 @@
       "kind": "songs",
       "name": "Additional songs 1/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-01.zip",
-      "bytes": 22375251,
-      "sha256": "1ce57a946009024511eb49d5a53e26273fcfa8148eee1ba96506a6e815fcbd32",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-01.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-01.zip",
+      "bytes": 19987690,
+      "sha256": "e93bcd7f75089a0188568885932c6ef5db10948789f2d0a1a7d1c82d3cc941fa",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-01.zip"
     },
     {
       "id": "songs-songhub-additions-02",
       "kind": "songs",
       "name": "Additional songs 2/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-02.zip",
-      "bytes": 18295657,
-      "sha256": "382a390745116cd31c72fcce12ae2c91f285ad4ca1dfa175f1e25bea102093cd",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-02.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-02.zip",
+      "bytes": 16180256,
+      "sha256": "9180f9676d85542c0b6dc8ad612109de42569bd7f1b789bfb8f3d8ea97ede721",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-02.zip"
     },
     {
       "id": "songs-songhub-additions-03",
       "kind": "songs",
       "name": "Additional songs 3/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-03.zip",
-      "bytes": 23591875,
-      "sha256": "feb3fe6f6f7ae65ffa557d101ba942a79254b1b6756654e96c74e16e14a91947",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-03.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-03.zip",
+      "bytes": 14207996,
+      "sha256": "0f28dc630be0f315d57ae4036eaf10ced23f29dd14e782fbc4bf088938984eb6",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-03.zip"
     },
     {
       "id": "songs-songhub-additions-04",
       "kind": "songs",
       "name": "Additional songs 4/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-04.zip",
-      "bytes": 29545717,
-      "sha256": "3351c344ea6233085e3be330ceed987c5bd358602a72867ddef37b08c53276cb",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-04.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-04.zip",
+      "bytes": 22934960,
+      "sha256": "58766f88180a8d01c47f74038ec2581cfb593c3c401586fa77fcbb6736299251",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-04.zip"
     },
     {
       "id": "songs-songhub-additions-05",
       "kind": "songs",
       "name": "Additional songs 5/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-05.zip",
-      "bytes": 30159740,
-      "sha256": "80f1a1d64aa7e601266ddb5d624958ea83ad21f4c5bdaa6f1b2c1b011097e754",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-05.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-05.zip",
+      "bytes": 25304995,
+      "sha256": "85ec9f1dcc261726810d89571e08cce4e8fbee6a5d8f3d7fefdaca6d5852fcf4",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-05.zip"
     },
     {
       "id": "songs-songhub-additions-06",
       "kind": "songs",
       "name": "Additional songs 6/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-06.zip",
-      "bytes": 22559219,
-      "sha256": "e75ac831fff3c6dd686698507ab1d442bf54bc0ca27549333c15ad32f2cbda10",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-06.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-06.zip",
+      "bytes": 17037336,
+      "sha256": "e98052c8740c386ca04699fd87adfc646b442a92788ddc9c6b26c257e014ca9a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-06.zip"
     },
     {
       "id": "songs-songhub-additions-07",
       "kind": "songs",
       "name": "Additional songs 7/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-07.zip",
-      "bytes": 28115032,
-      "sha256": "b92da6f69cd96ada20a03f0dd6cd41cc4eead6b03c8b5f90b6fe4030199fc2c8",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-07.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-07.zip",
+      "bytes": 17498315,
+      "sha256": "642eaf876ffa7d5c0fd141b80c57611475bbc4bac5f7eb7239f7678fc66e7188",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-07.zip"
     },
     {
       "id": "songs-songhub-additions-08",
       "kind": "songs",
       "name": "Additional songs 8/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-08.zip",
-      "bytes": 30936628,
-      "sha256": "48b4a78d847b5b80202bf8bf8443c6614f2cd204aa2bd20b93788cd9add3b3d6",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-08.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-08.zip",
+      "bytes": 21587752,
+      "sha256": "da32ab853c019e96330cc557cc57f55eff59c095fee28a6e1c3f64a832bbca52",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-08.zip"
     },
     {
       "id": "songs-songhub-additions-09",
       "kind": "songs",
       "name": "Additional songs 9/9",
       "category": "Additional Songs",
-      "key": "packs/songhub-additions-09.zip",
-      "bytes": 21072325,
-      "sha256": "ae7086b32bb242ceae13c5d193819ceb5e957ce886ebd6f8a2abb6865e8deabb",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/songs-songhub-additions-09.zip"
+      "key": "packs/lyrics-v1/songs-songhub-additions-09.zip",
+      "bytes": 8532407,
+      "sha256": "dbe4f8c4eb2e8c3319f8eb1daa67a065ff700146fb42feae124c2dd9feb961d0",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-09.zip"
     },
     {
       "id": "video-songhub-cute-toddler-in-paradise-island",

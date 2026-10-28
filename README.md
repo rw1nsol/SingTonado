@@ -7,16 +7,16 @@
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
-- [Download the base offline library](https://github.com/rw1nsol/SingTonado/releases/download/library-v1/SingTonado-offline-library.zip)
+- [Current library and lyrics filter](https://github.com/rw1nsol/SingTonado/releases/tag/library-lyrics-v1)
 - [App releases](https://github.com/rw1nsol/SingTonado/releases)
 - [Installation](docs/INSTALL.md)
 - [Updates and publishing](docs/UPDATES.md)
 
-The current in-app catalogue contains **65,302 MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. The [additional resource release](https://github.com/rw1nsol/SingTonado/releases/tag/library-songhub-v1) adds 17,610 validated files without changing existing song numbers. [New song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/ADDITIONAL-SONGS.csv).
+The current in-app catalogue contains **62,063 MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. The lyrics filter removes **3,239 songs without lyrics**, including files containing only credits, chords or arrangement markers. Lyric-bearing songs, sound effects and other media are retained. Existing song numbers and retained file contents are unchanged. [Filter details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/SONGS-KEPT.csv).
 
-The original base offline ZIP contains **47,692 songs**, **three sound banks** (Basic, Platinum Major, Dreamsam), and **four video backgrounds**. That ZIP is about **1.87 GB** and expands to approximately **4.08 GB**; it does not include the newer expansion.
+Older library releases and the original base offline ZIP are historical snapshots. They include instrumental songs excluded from the current catalogue. Use the in-app downloader for the current filtered library.
 
-Tap **DOWNLOAD SONGS** on the app's main library screen, then **Download / resume**. The expanded standard download is about **2.23 GB**, with additional sound banks available through Sound settings. Existing base-library users download about **1.14 GB** for the new song packs, videos and notices. The five new optional banks total about **373 MB**. Completed song packs appear automatically, and the download panel shows only progress and pause/resume controls.
+In SingTonado 1.6.12, tap **DOWNLOAD SONGS**, then **Download / resume** and allow the download to finish. The downloader replaces 17 changed song packs, removes their superseded cached copies when complete, and refreshes the library. Personal imports are unchanged. Extra sound banks remain available through Sound settings. The download panel shows progress and pause/resume controls. No new APK is required for this library change.
 
 The app downloads resource packs from this repository's Releases. Downloads can resume, and their SHA-256 hashes are checked. It automatically checks the public release manifest for app updates; Android requires approval to install an update. Future app releases must use the same signing key.
 

@@ -1,0 +1,121 @@
+{
+  "scanned": 65302,
+  "kept": 62063,
+  "removed": 3239,
+  "preserved_sound_effects": 10,
+  "removed_reasons": {
+    "chord_chart_without_lyrics": 25,
+    "no_lyric_words": 2798,
+    "reviewed_metadata_or_markers_only": 51,
+    "reviewed_sparse_metadata_only": 365
+  },
+  "recovered_original_files_with_lyrics": 5,
+  "changed_packs": [
+    {
+      "id": "02-international-2",
+      "kept": 788,
+      "removed": 2,
+      "bytes": 10622674
+    },
+    {
+      "id": "02-international-5",
+      "kept": 857,
+      "removed": 1,
+      "bytes": 11383994
+    },
+    {
+      "id": "02-international-6",
+      "kept": 850,
+      "removed": 4,
+      "bytes": 11265537
+    },
+    {
+      "id": "02-international-7",
+      "kept": 831,
+      "removed": 2,
+      "bytes": 10839786
+    },
+    {
+      "id": "02-international-8",
+      "kept": 830,
+      "removed": 2,
+      "bytes": 10570077
+    },
+    {
+      "id": "02-international-9",
+      "kept": 825,
+      "removed": 1,
+      "bytes": 10889248
+    },
+    {
+      "id": "02-international-10",
+      "kept": 815,
+      "removed": 2,
+      "bytes": 11022181
+    },
+    {
+      "id": "03-christmas-1",
+      "kept": 535,
+      "removed": 1,
+      "bytes": 5922748
+    },
+    {
+      "id": "songs-songhub-additions-01",
+      "kept": 1990,
+      "removed": 10,
+      "bytes": 19987690
+    },
+    {
+      "id": "songs-songhub-additions-02",
+      "kept": 1994,
+      "removed": 6,
+      "bytes": 16180256
+    },
+    {
+      "id": "songs-songhub-additions-03",
+      "kept": 1452,
+      "removed": 548,
+      "bytes": 14207996
+    },
+    {
+      "id": "songs-songhub-additions-04",
+      "kept": 1732,
+      "removed": 268,
+      "bytes": 22934960
+    },
+    {
+      "id": "songs-songhub-additions-05",
+      "kept": 1919,
+      "removed": 81,
+      "bytes": 25304995
+    },
+    {
+      "id": "songs-songhub-additions-06",
+      "kept": 1657,
+      "removed": 343,
+      "bytes": 17037336
+    },
+    {
+      "id": "songs-songhub-additions-07",
+      "kept": 1398,
+      "removed": 602,
+      "bytes": 17498315
+    },
+    {
+      "id": "songs-songhub-additions-08",
+      "kept": 1533,
+      "removed": 467,
+      "bytes": 21587752
+    },
+    {
+      "id": "songs-songhub-additions-09",
+      "kept": 711,
+      "removed": 899,
+      "bytes": 8532407
+    }
+  ],
+  "unchanged_non_song_resources": 25,
+  "retained_files_byte_identical": true,
+  "song_numbers_unchanged": true,
+  "apk_unchanged": true
+}

@@ -1,5 +1,7 @@
 # Additional resources
 
+The current catalogue has since been filtered to remove songs without lyrics. It retains 62,063 MIDI/KAR files, including sound effects, plus all banks and videos. The historical counts below describe the initial expansion. Use the current app downloader and [lyrics filter guide](LYRICS-FILTER.md).
+
 The catalogue linked by the supplied SongHub Downloads APK was inspected on 2026-10-28. The APK opens a website; the media is hosted externally.
 
 ## Added to SingTonado
