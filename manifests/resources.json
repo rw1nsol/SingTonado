@@ -1,7 +1,7 @@
 {
-  "version": "resources-dedup-bc63b52b96ba14e0",
-  "built": "2026-10-28T02:53:29.544657Z",
-  "bytes": 3858912321,
+  "version": "resources-original-only-7e041894d0f8b35b",
+  "built": "2026-10-28T03:11:00.818820Z",
+  "bytes": 3695701907,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -721,96 +721,6 @@
       "bytes": 16624854,
       "sha256": "3637780957f63cebf4c69ee48c4b76dcafba7bc162ebf1a3d1ec8fe43e14f4da",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/sf-songhub-aspirin-gm-gs.sf2"
-    },
-    {
-      "id": "songs-songhub-additions-01",
-      "kind": "songs",
-      "name": "Additional songs 1/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-01.zip",
-      "bytes": 19987690,
-      "sha256": "e93bcd7f75089a0188568885932c6ef5db10948789f2d0a1a7d1c82d3cc941fa",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-01.zip"
-    },
-    {
-      "id": "songs-songhub-additions-02",
-      "kind": "songs",
-      "name": "Additional songs 2/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-02.zip",
-      "bytes": 16180256,
-      "sha256": "9180f9676d85542c0b6dc8ad612109de42569bd7f1b789bfb8f3d8ea97ede721",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-02.zip"
-    },
-    {
-      "id": "songs-songhub-additions-03",
-      "kind": "songs",
-      "name": "Additional songs 3/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-03.zip",
-      "bytes": 14207996,
-      "sha256": "0f28dc630be0f315d57ae4036eaf10ced23f29dd14e782fbc4bf088938984eb6",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-03.zip"
-    },
-    {
-      "id": "songs-songhub-additions-04",
-      "kind": "songs",
-      "name": "Additional songs 4/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-04.zip",
-      "bytes": 22934960,
-      "sha256": "58766f88180a8d01c47f74038ec2581cfb593c3c401586fa77fcbb6736299251",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-04.zip"
-    },
-    {
-      "id": "songs-songhub-additions-05",
-      "kind": "songs",
-      "name": "Additional songs 5/9",
-      "category": "Additional Songs",
-      "key": "packs/dedup-v1/songs-songhub-additions-05.zip",
-      "bytes": 25287315,
-      "sha256": "5e8cd5d8e819c54a5c34569352878671ee9bec3156ec469df40d09d9961a8bab",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-dedup-v1/dedup-songs-songhub-additions-05.zip"
-    },
-    {
-      "id": "songs-songhub-additions-06",
-      "kind": "songs",
-      "name": "Additional songs 6/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-06.zip",
-      "bytes": 17037336,
-      "sha256": "e98052c8740c386ca04699fd87adfc646b442a92788ddc9c6b26c257e014ca9a",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-06.zip"
-    },
-    {
-      "id": "songs-songhub-additions-07",
-      "kind": "songs",
-      "name": "Additional songs 7/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-07.zip",
-      "bytes": 17498315,
-      "sha256": "642eaf876ffa7d5c0fd141b80c57611475bbc4bac5f7eb7239f7678fc66e7188",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-07.zip"
-    },
-    {
-      "id": "songs-songhub-additions-08",
-      "kind": "songs",
-      "name": "Additional songs 8/9",
-      "category": "Additional Songs",
-      "key": "packs/dedup-v1/songs-songhub-additions-08.zip",
-      "bytes": 21544139,
-      "sha256": "b6da3b7e92150ce45054041f3884cf0e04637c68668269eb14590d134ade0d44",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-dedup-v1/dedup-songs-songhub-additions-08.zip"
-    },
-    {
-      "id": "songs-songhub-additions-09",
-      "kind": "songs",
-      "name": "Additional songs 9/9",
-      "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-09.zip",
-      "bytes": 8532407,
-      "sha256": "dbe4f8c4eb2e8c3319f8eb1daa67a065ff700146fb42feae124c2dd9feb961d0",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-09.zip"
     },
     {
       "id": "video-songhub-cute-toddler-in-paradise-island",

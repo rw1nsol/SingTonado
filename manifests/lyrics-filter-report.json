@@ -1,15 +1,12 @@
 {
   "scanned": 65302,
-  "kept": 62060,
-  "removed": 3242,
-  "preserved_sound_effects": 10,
+  "kept": 47677,
+  "removed": 17625,
+  "preserved_sound_effects": 0,
   "removed_reasons": {
-    "chord_chart_without_lyrics": 25,
-    "no_lyric_words": 2798,
-    "reviewed_metadata_or_markers_only": 51,
-    "reviewed_sparse_metadata_only": 365,
-    "user_requested_removal": 1,
-    "new_duplicate_of_older_entry": 2
+    "chord_chart_without_lyrics": 14,
+    "no_lyric_words": 1,
+    "withdrawn_songhub_source": 17610
   },
   "recovered_original_files_with_lyrics": 5,
   "changed_packs": [
@@ -60,60 +57,6 @@
       "kept": 535,
       "removed": 1,
       "bytes": 5922748
-    },
-    {
-      "id": "songs-songhub-additions-01",
-      "kept": 1990,
-      "removed": 10,
-      "bytes": 19987690
-    },
-    {
-      "id": "songs-songhub-additions-02",
-      "kept": 1994,
-      "removed": 6,
-      "bytes": 16180256
-    },
-    {
-      "id": "songs-songhub-additions-03",
-      "kept": 1452,
-      "removed": 548,
-      "bytes": 14207996
-    },
-    {
-      "id": "songs-songhub-additions-04",
-      "kept": 1732,
-      "removed": 268,
-      "bytes": 22934960
-    },
-    {
-      "id": "songs-songhub-additions-05",
-      "kept": 1917,
-      "removed": 83,
-      "bytes": 25287315
-    },
-    {
-      "id": "songs-songhub-additions-06",
-      "kept": 1657,
-      "removed": 343,
-      "bytes": 17037336
-    },
-    {
-      "id": "songs-songhub-additions-07",
-      "kept": 1398,
-      "removed": 602,
-      "bytes": 17498315
-    },
-    {
-      "id": "songs-songhub-additions-08",
-      "kept": 1532,
-      "removed": 468,
-      "bytes": 21544139
-    },
-    {
-      "id": "songs-songhub-additions-09",
-      "kept": 711,
-      "removed": 899,
-      "bytes": 8532407
     }
   ],
   "unchanged_non_song_resources": 25,
@@ -140,5 +83,24 @@
       "artist": "Corazon Espinado"
     }
   ],
-  "original_duplicate_pairs_preserved": 42
+  "original_duplicate_pairs_preserved": 42,
+  "songhub_withdrawal": {
+    "all_imported_midi_kar_files": 17610,
+    "removed_from_active_catalogue_now": 14383,
+    "withdrawn_pack_ids": [
+      "songs-songhub-additions-01",
+      "songs-songhub-additions-02",
+      "songs-songhub-additions-03",
+      "songs-songhub-additions-04",
+      "songs-songhub-additions-05",
+      "songs-songhub-additions-06",
+      "songs-songhub-additions-07",
+      "songs-songhub-additions-08",
+      "songs-songhub-additions-09"
+    ],
+    "retained_original_files": 47677,
+    "retained_non_song_resources": 25,
+    "all_historical_song_zip_assets_to_delete": 21,
+    "other_songhub_media_preserved": true
+  }
 }
