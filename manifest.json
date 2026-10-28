@@ -1,7 +1,7 @@
 {
-  "version": "resources-cleanup-45c45db78817f17b",
-  "built": "2026-10-28T02:32:45.464942Z",
-  "bytes": 3858961493,
+  "version": "resources-dedup-bc63b52b96ba14e0",
+  "built": "2026-10-28T02:53:29.544657Z",
+  "bytes": 3858912321,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -767,10 +767,10 @@
       "kind": "songs",
       "name": "Additional songs 5/9",
       "category": "Additional Songs",
-      "key": "packs/cleanup-v1/songs-songhub-additions-05.zip",
-      "bytes": 25292874,
-      "sha256": "59f2bb212b294a95a13c1b49bb2582c1a1db5f2b7f4a369eb7a5d48195a9f54e",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-cleanup-v1/songs-additional-05-without-69194.zip"
+      "key": "packs/dedup-v1/songs-songhub-additions-05.zip",
+      "bytes": 25287315,
+      "sha256": "5e8cd5d8e819c54a5c34569352878671ee9bec3156ec469df40d09d9961a8bab",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-dedup-v1/dedup-songs-songhub-additions-05.zip"
     },
     {
       "id": "songs-songhub-additions-06",
@@ -797,10 +797,10 @@
       "kind": "songs",
       "name": "Additional songs 8/9",
       "category": "Additional Songs",
-      "key": "packs/lyrics-v1/songs-songhub-additions-08.zip",
-      "bytes": 21587752,
-      "sha256": "da32ab853c019e96330cc557cc57f55eff59c095fee28a6e1c3f64a832bbca52",
-      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/lyrics-songs-songhub-additions-08.zip"
+      "key": "packs/dedup-v1/songs-songhub-additions-08.zip",
+      "bytes": 21544139,
+      "sha256": "b6da3b7e92150ce45054041f3884cf0e04637c68668269eb14590d134ade0d44",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-dedup-v1/dedup-songs-songhub-additions-08.zip"
     },
     {
       "id": "songs-songhub-additions-09",

@@ -1,14 +1,15 @@
 {
   "scanned": 65302,
-  "kept": 62062,
-  "removed": 3240,
+  "kept": 62060,
+  "removed": 3242,
   "preserved_sound_effects": 10,
   "removed_reasons": {
     "chord_chart_without_lyrics": 25,
     "no_lyric_words": 2798,
     "reviewed_metadata_or_markers_only": 51,
     "reviewed_sparse_metadata_only": 365,
-    "user_requested_removal": 1
+    "user_requested_removal": 1,
+    "new_duplicate_of_older_entry": 2
   },
   "recovered_original_files_with_lyrics": 5,
   "changed_packs": [
@@ -86,9 +87,9 @@
     },
     {
       "id": "songs-songhub-additions-05",
-      "kept": 1918,
-      "removed": 82,
-      "bytes": 25292874
+      "kept": 1917,
+      "removed": 83,
+      "bytes": 25287315
     },
     {
       "id": "songs-songhub-additions-06",
@@ -104,9 +105,9 @@
     },
     {
       "id": "songs-songhub-additions-08",
-      "kept": 1533,
-      "removed": 467,
-      "bytes": 21587752
+      "kept": 1532,
+      "removed": 468,
+      "bytes": 21544139
     },
     {
       "id": "songs-songhub-additions-09",
@@ -124,5 +125,20 @@
       "code": 69194,
       "title": "(219013)"
     }
-  ]
+  ],
+  "new_duplicate_removals": [
+    {
+      "keep": 14224,
+      "remove": 68523,
+      "title": "creep",
+      "artist": "radiohead"
+    },
+    {
+      "keep": 73303,
+      "remove": 75431,
+      "title": "Santana",
+      "artist": "Corazon Espinado"
+    }
+  ],
+  "original_duplicate_pairs_preserved": 42
 }

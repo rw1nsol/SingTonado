@@ -1,6 +1,6 @@
 # Additional resources
 
-The current catalogue has since been filtered to remove songs without lyrics. After additionally removing song 69194 at the user's request, it retains 62,062 MIDI/KAR files, including sound effects, plus all banks and videos. The historical counts below describe the initial expansion. Use the current app downloader and [lyrics filter guide](LYRICS-FILTER.md).
+The current catalogue has since been filtered to remove songs without lyrics. After additionally removing song 69194 and two newer duplicate entries at the user's request, it retains 62,060 MIDI/KAR files, including sound effects, plus all banks and videos. Older duplicate entries are retained. The historical counts below describe the initial expansion. Use the current app downloader and [lyrics filter guide](LYRICS-FILTER.md).
 
 The catalogue linked by the supplied SongHub Downloads APK was inspected on 2026-10-28. The APK opens a website; the media is hosted externally.
 
