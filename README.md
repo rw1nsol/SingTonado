@@ -7,12 +7,12 @@
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
-- [Current library and lyrics filter](https://github.com/rw1nsol/SingTonado/releases/tag/library-lyrics-v1)
+- [Current library and lyrics filter](https://github.com/rw1nsol/SingTonado/releases/tag/library-cleanup-v1)
 - [App releases](https://github.com/rw1nsol/SingTonado/releases)
 - [Installation](docs/INSTALL.md)
 - [Updates and publishing](docs/UPDATES.md)
 
-The current in-app catalogue contains **62,063 MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. The lyrics filter removes **3,239 songs without lyrics**, including files containing only credits, chords or arrangement markers. Lyric-bearing songs, sound effects and other media are retained. Existing song numbers and retained file contents are unchanged. [Filter details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-lyrics-v1/SONGS-KEPT.csv).
+The current in-app catalogue contains **62,062 MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. The lyrics filter removes **3,239 songs without lyrics**, including files containing only credits, chords or arrangement markers. Song **69194 — (219013)** is also removed at the user's request. Other lyric-bearing songs, sound effects and media are retained. Existing song numbers and retained file contents are unchanged. [Filter details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-cleanup-v1/SONGS-KEPT.csv).
 
 Older library releases and the original base offline ZIP are historical snapshots. They include instrumental songs excluded from the current catalogue. Use the in-app downloader for the current filtered library.
 

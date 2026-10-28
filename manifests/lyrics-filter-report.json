@@ -1,13 +1,14 @@
 {
   "scanned": 65302,
-  "kept": 62063,
-  "removed": 3239,
+  "kept": 62062,
+  "removed": 3240,
   "preserved_sound_effects": 10,
   "removed_reasons": {
     "chord_chart_without_lyrics": 25,
     "no_lyric_words": 2798,
     "reviewed_metadata_or_markers_only": 51,
-    "reviewed_sparse_metadata_only": 365
+    "reviewed_sparse_metadata_only": 365,
+    "user_requested_removal": 1
   },
   "recovered_original_files_with_lyrics": 5,
   "changed_packs": [
@@ -85,9 +86,9 @@
     },
     {
       "id": "songs-songhub-additions-05",
-      "kept": 1919,
-      "removed": 81,
-      "bytes": 25304995
+      "kept": 1918,
+      "removed": 82,
+      "bytes": 25292874
     },
     {
       "id": "songs-songhub-additions-06",
@@ -117,5 +118,11 @@
   "unchanged_non_song_resources": 25,
   "retained_files_byte_identical": true,
   "song_numbers_unchanged": true,
-  "apk_unchanged": true
+  "apk_unchanged": true,
+  "user_requested_removals": [
+    {
+      "code": 69194,
+      "title": "(219013)"
+    }
+  ]
 }
