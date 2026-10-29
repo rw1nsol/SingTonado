@@ -6,7 +6,7 @@
 
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
-Version **1.6.13** fixes the dashboard icon becoming a solid square in non-green Look themes. The full-color artwork now appears in every palette. [Icon fix and songbook refresh details](docs/DASHBOARD-ICON-FIX.md).
+Version **1.7.0** adds audio recording and a recordings library, camera backgrounds, Bluetooth remote connections, count-in cues, more lyric fonts, melody-volume controls and expanded settings/scoring options. The animated startup, full-color icon in every palette and original-only song library are preserved. [Update details and verification limits](docs/UPDATE-1.7.0.md).
 
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
 - [Current original-song library](https://github.com/rw1nsol/SingTonado/releases/tag/library-original-only-v1)

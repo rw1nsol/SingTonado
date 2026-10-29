@@ -2617,17 +2617,23 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 20,
-    "versionName": "1.6.13",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.6.13/SingTonado.apk",
-    "bytes": 26146052,
-    "sha256": "be20541ad52e6568601cf40cf1aaa45cba978a1151528194687269fd09e9be45",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.6.13",
+    "versionCode": 21,
+    "versionName": "1.7.0",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.7.0/SingTonado.apk",
+    "bytes": 27657588,
+    "sha256": "f1d58eb452a49582ce93bfae3e612277cbe618388b7e3452a64718453b774fcf",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.7.0",
     "notes": [
-      "Fix the dashboard SingTonado picture becoming a solid square when changing Look colors.",
-      "The full-color artwork now appears consistently in Green, Blue, Purple, Rose and Charcoal themes.",
-      "Keeps the current filtered library, including the removal of song 69194. Songs and other media are unchanged.",
-      "Signed with the existing SingTonado key so this APK can update your installed app without uninstalling it."
+      "SingTonado 1.7.0 brings in the new playback, recording, stage, remote and settings features from the supplied 1.7.0 update.",
+      "Record your singing with the backing track, then play, share or delete saved M4A recordings in the recordings library.",
+      "Use a live camera picture behind the lyrics, with lens, mirror and dimming controls. Camera video is preview-only; recordings keep audio.",
+      "Connect remote/stage devices over Bluetooth, alongside the existing local-network connection.",
+      "Use count-in cues with numbers or dots and counting sounds, plus bundled spoken keypad and scoring clips.",
+      "Choose from 11 lyric fonts, adjust melody volume, select Off/Random/Mic scoring, search the reorganized settings, choose downloaded or personal songs, and set what happens after the last queued song.",
+      "Preserves SingTonado branding, supplied artwork, animated startup, full-color dashboard icon in every Look palette, progress-only download control and GitHub updater.",
+      "Keeps the original-only library of 47,677 songs. No SongHub song packs are restored.",
+      "Install over the existing app without uninstalling it. Package app.singtonado, build 21, Android 8.0 or later, same signing key.",
+      "Signature, alignment, archive, branding and compiled-feature/reference checks passed. Recording, camera, Bluetooth and settings migration have not been runtime-tested on a phone or emulator."
     ],
     "minSdk": 26
   },
