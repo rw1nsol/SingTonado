@@ -2,7 +2,7 @@
 
 Requires Android 8.0 or later.
 
-The current APK is **1.7.0**, with recording, camera, Bluetooth remote, count-in and lyric/settings improvements. Install it over the existing app without uninstalling. The dashboard picture remains full-color in every Look theme. The songbook is regenerated from the current local library when reopened; export it again if a previously saved PDF is out of date. See [the feature update guide](UPDATE-1.7.0.md).
+The current APK is **1.8.0**, with playlists, repeat/shuffle playback, direct USB/SD folders, title/background controls, quick tools and an updated audio engine, plus the recording, camera and Bluetooth features from 1.7.0. Install it over the existing app without uninstalling. The dashboard picture remains full-color in every Look theme. The songbook is regenerated from the current local library when reopened; export it again if a previously saved PDF is out of date. See [the feature update guide](UPDATE-1.8.0.md).
 
 1. Download `SingTonado.apk` from the latest app release.
 2. Open it and complete Android's installation prompts. If asked, allow installation from the app used to download this APK.

@@ -1,0 +1,97 @@
+{
+  "versionCode": 22,
+  "versionName": "1.8.0",
+  "package": "app.singtonado",
+  "minSdkVersion": 26,
+  "apk": "SingTonado-1.8.0.apk",
+  "bytes": 24708968,
+  "sha256": "0703509a344f9bd2b2ea83d217bd446f0ba86d890bf97d6c275105e92b311a7a",
+  "same_signing_certificate_as_1_6_13": true,
+  "signature_verified": true,
+  "alignment_verified": true,
+  "archive_crc_verified": true,
+  "branding_scan": "passed",
+  "preserved_upstream_framework_audio_fonts_and_support_files": 51,
+  "custom_startup_dex_unchanged": true,
+  "phone_runtime_tested": false,
+  "native_libraries_preserved_byte_for_byte": [
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6"
+    },
+    {
+      "path": "lib/arm64-v8a/libbass.so",
+      "sha256": "9a761481e30d44a2a96df1f0986f2aab629be469a6b2fcfdf043923a1f18e365"
+    },
+    {
+      "path": "lib/arm64-v8a/libbassmidi.so",
+      "sha256": "4212cf33d18d1f645874d8f5b14f9b7bceae67d48acc5b345a03ecd2be309083"
+    },
+    {
+      "path": "lib/arm64-v8a/libbass_fx.so",
+      "sha256": "dff251673965a8aa412aa6625fe640dd35fe1020d335d0884f4886cf8eaf8c3e"
+    },
+    {
+      "path": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "sha256": "0292b063fafccf734472cbb59588e756c2dbca907c72021ba6fbf126385508a2"
+    },
+    {
+      "path": "lib/arm64-v8a/libsurface_util_jni.so",
+      "sha256": "a5c9d1928ea92ec7a94dff8cf666e7739cd734198b9f0ae1d4e28ea3c86516ba"
+    },
+    {
+      "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b"
+    },
+    {
+      "path": "lib/armeabi-v7a/libbass.so",
+      "sha256": "26a8f174fc763f8171b97a052e0994cbf6284f0c276cb853017cc66220167a3f"
+    },
+    {
+      "path": "lib/armeabi-v7a/libbassmidi.so",
+      "sha256": "31ef5943583f0518a2a67a16c1474b22826bc32f9eb0ee650d16934621e1dd6b"
+    },
+    {
+      "path": "lib/armeabi-v7a/libbass_fx.so",
+      "sha256": "67da7cd9bff44251694ee62f3485275c225e9e35d995d4616588b206d9a5e1af"
+    },
+    {
+      "path": "lib/armeabi-v7a/libimage_processing_util_jni.so",
+      "sha256": "05973c0cf8e8dd281c8ec505c41814b78b740461056925bb41120594d7c35dcd"
+    },
+    {
+      "path": "lib/armeabi-v7a/libsurface_util_jni.so",
+      "sha256": "78eb0b10e91b819be97cb7daa8c97fb757fa6d07cb80ccb7e92c113b45bda9be"
+    },
+    {
+      "path": "lib/x86_64/libandroidx.graphics.path.so",
+      "sha256": "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0"
+    },
+    {
+      "path": "lib/x86_64/libbass.so",
+      "sha256": "e4533e1276366b74002616bb146ff473aa8b52006d384454236f133d79379496"
+    },
+    {
+      "path": "lib/x86_64/libbassmidi.so",
+      "sha256": "9a6f0ef567751db2e2e3dc03e4580c2ebe69276560558a44ea34e2b48c97247e"
+    },
+    {
+      "path": "lib/x86_64/libbass_fx.so",
+      "sha256": "199f2844b31f99ad13bf5cd8b6d70eb764bd20a039bb2765f5922a08d2e4301b"
+    },
+    {
+      "path": "lib/x86_64/libimage_processing_util_jni.so",
+      "sha256": "112703727717651e69e91f3ea2c3c2311737ee5809a909c9d342a811b6c7c069"
+    },
+    {
+      "path": "lib/x86_64/libsurface_util_jni.so",
+      "sha256": "e5311942b4fce0f7f2505d41150cf9921e558a6368929cb73127450f74dd4fe4"
+    }
+  ],
+  "app_classes_checked": 3070,
+  "method_references_checked": 89492,
+  "feature_and_custom_hooks_verified": true,
+  "startup_motion_and_no_circular_graphics_verified": true,
+  "resource_entries": 84,
+  "original_song_count": 47677
+}
