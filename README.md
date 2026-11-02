@@ -14,7 +14,9 @@ Version **1.8.0** adds playlists, repeat/shuffle modes, direct USB/SD songs-fold
 - [Installation](docs/INSTALL.md)
 - [Updates and publishing](docs/UPDATES.md)
 
-The current in-app catalogue contains **47,677 original-library MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs and song numbers are retained, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-original-only-v1/SONGS-KEPT.csv).
+The current in-app catalogue contains **47,677 original-library MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs are retained with permanent random SingTonado numbers, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-singtonado-numbers-v1/SONG-NUMBERS.csv).
+
+[SingTonado numbering and migration](docs/SONG-NUMBERS.md): use app 1.8.0 or later, finish DOWNLOAD SONGS, and reopen the app. Current songs change numbers once; future additions get random unused numbers while existing numbers stay fixed. Favorites, history, playlists and saved lyric fixes use the app's one-time migration. Export Songbook again after downloading.
 
 Older library releases and the original base offline ZIP are historical snapshots. They include instrumental songs excluded from the current catalogue. Use the in-app downloader for the current filtered library.
 

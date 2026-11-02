@@ -17,7 +17,7 @@ Recording, the recordings library, camera preview, Bluetooth/network remotes, ly
 
 The supplied square startup image remains above SingTonado and the tagline **Birit kung birit, kahit sintunado!**, with text motion and reading time, and no circular loading indicator. The dashboard logo is untinted in all Look palettes. DOWNLOAD SONGS opens the existing progress-only panel with download, pause and resume controls.
 
-The resource inventory is unchanged: 47,677 original-library MIDI/KAR files in 59 song packs, eight sound banks, 16 videos and a notice (84 entries). All withdrawn SongHub-derived song additions remain excluded. Existing song numbers are retained; no renumbering map is introduced in the feed.
+The resource inventory contains 47,677 original-library MIDI/KAR files in 59 song packs, eight sound banks, 16 videos and a notice (84 entries). All withdrawn SongHub-derived song additions remain excluded. The later [SingTonado numbering resource update](SONG-NUMBERS.md) changes source numbers once, then keeps existing SingTonado numbers permanent for future updates.
 
 ## Installation and updates
 

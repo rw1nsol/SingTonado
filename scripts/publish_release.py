@@ -25,6 +25,14 @@ def main():
     apk=staging/'SingTonado.apk'; shutil.copyfile(args.apk,apk)
     digest=hashlib.file_digest(apk.open('rb'),'sha256').hexdigest()
     manifest=json.loads((repo_root/'manifests/resources.json').read_text(encoding='utf-8'))
+    registry_path=repo_root/'manifests/song-number-registry.json'
+    if registry_path.exists():
+        registry=json.loads(registry_path.read_text(encoding='utf-8'))
+        expected={source:row['number'] for source,row in registry['songs'].items()}
+        if manifest.get('renumber',{}).get('map')!=expected:
+            raise ValueError('Resource feed must retain the permanent SingTonado number registry')
+        if manifest['renumber']['id']!=registry['migration_id'] or args.version_code<22:
+            raise ValueError('Numbered library requires the stable migration ID and a compatible app')
     manifest['app']={
         'versionCode':args.version_code,'versionName':args.version_name,
         'apk':f'https://github.com/{repository}/releases/download/{tag}/SingTonado.apk',

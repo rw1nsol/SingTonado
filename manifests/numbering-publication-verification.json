@@ -1,0 +1,13 @@
+{
+  "public_latest_feed_verified": true,
+  "app_version_unchanged": "1.8.0",
+  "app_version_code": 22,
+  "song_numbers": 47677,
+  "all_resource_assets_verified_by_github_sha256": true,
+  "public_sample_pack_download_sha256_verified": true,
+  "song_packs": 59,
+  "total_resources": 84,
+  "migration_id": "singtonado-numbering-v1",
+  "minimum_app_for_marks_migration": "1.8.0",
+  "phone_runtime_tested": false
+}

@@ -27,3 +27,7 @@ The script creates a draft release, uploads `SingTonado.apk` and `manifest.json`
 ## Version labels
 
 The main tab, Settings, About and update notification read shared BuildConfig fields through the helpers in `patches/BuildConfig-version-labels.smali`. Change VERSION_NAME and VERSION_CODE together with the AndroidManifest package version for each APK build; do not add version literals to UI labels.
+
+## Song numbering must persist
+
+Preserve `manifests/song-number-registry.json` in every future release. Process source song packs with `scripts/number_songs.py` before publication: new songs receive random unused numbers and existing songs retain their SingTonado numbers. Keep the migration ID stable. The app publisher checks that the feed map matches the permanent registry. See [the numbering workflow](SONG-NUMBERS.md).

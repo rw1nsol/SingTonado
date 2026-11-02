@@ -1,0 +1,22 @@
+{
+  "songs": 47677,
+  "packs": 59,
+  "unique_numbers": 47677,
+  "every_number_differs_from_source": true,
+  "song_payloads_unchanged": true,
+  "migration_id": "singtonado-numbering-v1",
+  "range": [
+    10000,
+    89999
+  ],
+  "personal_import_range_reserved": [
+    90001,
+    99999
+  ],
+  "persistent_registry": true,
+  "all_output_archives_crc_verified": true,
+  "all_song_payload_sha256_verified": true,
+  "exact_current_song_membership_verified": true,
+  "non_song_resources_unchanged": true,
+  "phone_runtime_tested": false
+}

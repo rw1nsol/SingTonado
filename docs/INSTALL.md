@@ -32,3 +32,7 @@ adb shell am start -n app.singtonado/sing.tona.MainActivity
 ```
 
 `-r` updates an existing SingTonado installation without clearing its data. Do not uninstall it unless you intend to remove its app data.
+
+## New SingTonado song numbers
+
+Use app 1.8.0 or later and finish DOWNLOAD SONGS → Download / resume. Reopen the app after the packs finish. Existing saved song references migrate once; search by title/artist or export Songbook again to find the new permanent numbers. See [song numbering](SONG-NUMBERS.md).
