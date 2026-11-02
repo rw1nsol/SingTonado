@@ -6,7 +6,7 @@
 
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
-Version **1.8.0** adds playlists, repeat/shuffle modes, direct USB/SD songs-folder access, title/background controls, quick tools and an updated BASS MIDI/audio engine. Recording, camera, Bluetooth remotes and other 1.7.0 features remain included. The animated startup, full-color icon in every palette and original-only song library are preserved. [Update details and verification limits](docs/UPDATE-1.8.0.md).
+Version **1.8.1** removes the heart from DOWNLOAD SONGS and includes all 1.8.0 additions: playlists, repeat/shuffle modes, direct USB/SD songs-folder access, title/background controls, quick tools and an updated BASS MIDI/audio engine. Recording, camera, Bluetooth remotes and other 1.7.0 features remain included. The animated startup, full-color icon in every palette and original-only song library are preserved. [Update details and verification limits](docs/UPDATE-1.8.0.md).
 
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
 - [Current original-song library](https://github.com/rw1nsol/SingTonado/releases/tag/library-original-only-v1)

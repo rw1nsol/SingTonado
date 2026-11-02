@@ -2617,23 +2617,17 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 22,
-    "versionName": "1.8.0",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.8.0/SingTonado.apk",
+    "versionCode": 23,
+    "versionName": "1.8.1",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.8.1/SingTonado.apk",
     "bytes": 24708968,
-    "sha256": "0703509a344f9bd2b2ea83d217bd446f0ba86d890bf97d6c275105e92b311a7a",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.8.0",
+    "sha256": "3d898297e717045fba80b1318cdfdfc6f93cd4480c05eacae01db175814d99c1",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.8.1",
     "notes": [
-      "SingTonado 1.8.0 integrates the features and engine from the supplied 1.8.0 update.",
-      "Create, rename and delete playlists; add songs by long-pressing or opening a playlist, and play a whole playlist.",
-      "Choose in-order playback, repeat one, repeat all or shuffle; clear reserved songs and singing history.",
-      "Read songs directly from a selected USB/SD folder without copying them into the app.",
-      "Use boxed, transparent or hidden song titles; keep video backgrounds playing between songs and change backgrounds on stage.",
-      "Use the quick-settings shortcuts, flashlight, calculator and improved problem report.",
-      "Includes the updated BASS MIDI/audio engine and expanded MIDI/lyric timing and layout support, plus recording, camera, Bluetooth, fonts and count-in features from 1.7.0.",
-      "Preserves the SingTonado icon, animated startup and tagline, full-color dashboard logo and progress-only downloads.",
-      "Keeps the original 47,677-song catalogue, eight sound banks and 16 videos; withdrawn SongHub song packs remain excluded.",
-      "Install over your existing SingTonado app. Android 8.0 or newer is required. Phone hardware features have not been device-tested in this build."
+      "SingTonado 1.8.1",
+      "Removed the heart icon from the DOWNLOAD SONGS button in both layouts.",
+      "Preserves all 1.8.0 features, the current library and permanent SingTonado song numbers.",
+      "Install over your existing app; Android 8.0 or later."
     ],
     "minSdk": 26
   },

@@ -16,3 +16,5 @@ and verify all resource assets before replacing the app's live manifest.
 All SongHub-derived song additions remain withdrawn. Preserve their exclusions
 and the existing lyric filter when updating sources. Keep authorized non-song
 resources and SingTonado branding. Never commit signing keys or credentials.
+Keep DOWNLOAD SONGS text-only in every layout, with no heart icon, and retain its
+progress-only download panel when integrating newer upstream app versions.

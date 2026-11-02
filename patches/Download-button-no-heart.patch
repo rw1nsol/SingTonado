@@ -1,0 +1,44 @@
+--- LibraryScreenKt.SupportButton-before
++++ LibraryScreenKt.SupportButton-after
+@@ -503,41 +502,0 @@
+-    sget-object v0, Landroidx/compose/material/icons/Icons$Filled;->INSTANCE:Landroidx/compose/material/icons/Icons$Filled;
+-
+-    invoke-static {v0}, Landroidx/compose/material/icons/filled/FavoriteKt;->getFavorite(Landroidx/compose/material/icons/Icons$Filled;)Landroidx/compose/ui/graphics/vector/ImageVector;
+-
+-    move-result-object v5
+-
+-    invoke-static {}, Lsing/tona/ui/theme/ColorKt;->getDeepGreenDark()J
+-
+-    move-result-wide v8
+-
+-    sget-object v0, Landroidx/compose/ui/Modifier;->Companion:Landroidx/compose/ui/Modifier$Companion;
+-
+-    check-cast v0, Landroidx/compose/ui/Modifier;
+-
+-    if-eqz v30, :cond_1c3
+-
+-    const/16 v1, 0x14
+-
+-    int-to-float v1, v1
+-
+-    goto :goto_1c4
+-
+-    :cond_1c3
+-    int-to-float v1, v6
+-
+-    :goto_1c4
+-    invoke-static {v1}, Landroidx/compose/ui/unit/Dp;->constructor-impl(F)F
+-
+-    move-result v1
+-
+-    invoke-static {v0, v1}, Landroidx/compose/foundation/layout/SizeKt;->size-3ABfNKs(Landroidx/compose/ui/Modifier;F)Landroidx/compose/ui/Modifier;
+-
+-    move-result-object v7
+-
+-    const/16 v11, 0x30
+-
+-    const/4 v12, 0x0
+-
+-    const/4 v6, 0x0
+-
+-    invoke-static/range {v5 .. v12}, Landroidx/compose/material3/IconKt;->Icon-ww6aTOc(Landroidx/compose/ui/graphics/vector/ImageVector;Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/runtime/Composer;II)V
