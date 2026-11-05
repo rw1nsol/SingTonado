@@ -1,0 +1,66 @@
+{
+  "versionCode": 24,
+  "versionName": "1.9.0",
+  "package": "app.singtonado",
+  "minSdkVersion": 26,
+  "apk": "SingTonado-1.9.0.apk",
+  "bytes": 28542915,
+  "sha256": "9c347a68cd12555fd714f4ab1ee98d8bec9755f59067f78bdd75b04078a41cb9",
+  "same_signing_certificate_as_1_6_13": true,
+  "signature_verified": true,
+  "alignment_verified": true,
+  "archive_crc_verified": true,
+  "branding_scan": "passed",
+  "preserved_upstream_framework_audio_fonts_and_support_files": 47,
+  "upstream_native_audio_code_preserved": [
+    {
+      "abi": "arm64-v8a",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    },
+    {
+      "abi": "armeabi-v7a",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    },
+    {
+      "abi": "x86_64",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    }
+  ],
+  "custom_startup_dex_unchanged": true,
+  "phone_runtime_tested": false,
+  "app_classes_checked": 3565,
+  "method_references_checked": 104318,
+  "download_button_no_icon_verified": true,
+  "startup_motion_and_square_picture_verified": true,
+  "numbering_migration_compatible": true,
+  "resource_manifest_unchanged": true,
+  "song_number_registry_unchanged": true,
+  "original_song_count": 47677,
+  "resource_entries": 84,
+  "fluidsynth_build_path_only_changes": [
+    {
+      "abi": "arm64-v8a",
+      "machine_code_unchanged": true,
+      "text_sha256": "0d1310947a5e91c839f8af19de8ec3ccb72a2eda77e987a2494d564e95e0527c",
+      "changes": "Only two compiled-in upstream build-path prefixes; equal byte lengths"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "machine_code_unchanged": true,
+      "text_sha256": "3567717565f1a55994344cf604f3e16cb62fa387df62d16aa5a084779829babe",
+      "changes": "Only two compiled-in upstream build-path prefixes; equal byte lengths"
+    },
+    {
+      "abi": "x86_64",
+      "machine_code_unchanged": true,
+      "text_sha256": "c4baa81417c7b8a4e97a485d992bfbc5a9e42f16cc47db8bdbdb48a0bb4b71bd",
+      "changes": "Only two compiled-in upstream build-path prefixes; equal byte lengths"
+    }
+  ]
+}

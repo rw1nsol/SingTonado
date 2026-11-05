@@ -15,7 +15,7 @@ The updater checks that an APK is for `app.singtonado`, is newer than the instal
 Build and sign the APK using the existing private SingTonado key. Increase the Android version code for every published update. Authenticate GitHub CLI as an account with repository write access, then run:
 
 ```text
-python scripts/publish_release.py --apk PATH_TO_SIGNED_APK --version-name 1.8.1 --version-code 23 --notes PATH_TO_NOTES.md
+python scripts/publish_release.py --apk PATH_TO_SIGNED_APK --version-name 1.9.0 --version-code 24 --notes PATH_TO_NOTES.md
 ```
 
 The script creates a draft release, uploads `SingTonado.apk` and `manifest.json`, and publishes it as the latest release only after both uploads are complete. Existing installations discover the new version through the stable feed URL. Never publish the signing key, its password, account credentials, or a GitHub access token.

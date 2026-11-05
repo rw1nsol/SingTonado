@@ -2617,17 +2617,23 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 23,
-    "versionName": "1.8.1",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.8.1/SingTonado.apk",
-    "bytes": 24708968,
-    "sha256": "3d898297e717045fba80b1318cdfdfc6f93cd4480c05eacae01db175814d99c1",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.8.1",
+    "versionCode": 24,
+    "versionName": "1.9.0",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.9.0/SingTonado.apk",
+    "bytes": 28542915,
+    "sha256": "9c347a68cd12555fd714f4ab1ee98d8bec9755f59067f78bdd75b04078a41cb9",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.9.0",
     "notes": [
-      "SingTonado 1.8.1",
-      "Removed the heart icon from the DOWNLOAD SONGS button in both layouts.",
-      "Preserves all 1.8.0 features, the current library and permanent SingTonado song numbers.",
-      "Install over your existing app; Android 8.0 or later."
+      "SingTonado 1.9.0 integrates the supplied 1.9.0 app update, Android dependencies, bundled assets and native sound engine.",
+      "Optional Video too records the singing stage as MP4 alongside the voice/music recording; the camera can be included when enabled. Recordings stay on the device until shared.",
+      "Music playback supports MP3/video folders, shuffle/repeat, full-screen playback and automatic fading/resuming around karaoke songs.",
+      "Adds a separate singing stage on compatible connected TV displays, remote admin/guest controls, phone messages and local song-file sending.",
+      "Downloads gain Light/Everything choices, storage/memory guidance, cleanup and movement of downloaded resources to a detected SD/USB location.",
+      "Sound quality offers Auto/High/Light, even loudness and optional equalizer-app support, using the updated native/Android sound engines.",
+      "Adds lyric-text search, sorting by title/singer/number/newest/size/type, playlist ordering/bulk additions, picture count-ins, photo slideshows, skip-button controls and startup-screen choices.",
+      "Preserves the SingTonado icon and animated tagline, full-color dashboard logo, text-only DOWNLOAD SONGS button, progress-only download panel and public updater.",
+      "Keeps all 47,677 permanent SingTonado song numbers and the existing 84 resource entries; withdrawn SongHub-derived songs remain excluded.",
+      "Install over the existing SingTonado app. Android 8.0 or later is required. Desktop build/static checks passed; phone hardware features have not been device-tested."
     ],
     "minSdk": 26
   },
