@@ -1,7 +1,7 @@
 {
-  "version": "resources-new-songs-fe0f1365d288f5e4",
-  "built": "2026-11-05T00:38:59.622905Z",
-  "bytes": 4879038764,
+  "version": "resources-user-backgrounds-ef8cb2f5531429db",
+  "built": "2026-11-05T02:16:41.561545Z",
+  "bytes": 5305306306,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -869,6 +869,42 @@
       "bytes": 12815,
       "sha256": "8b3691bd7445be9b95f657a03c25ae31baf9cec4d89406444af43f1df0f14049",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-update-190-v1/singtonado-new-songs-190-01.zip"
+    },
+    {
+      "id": "video-caixao-no-elevador",
+      "kind": "video",
+      "name": "Caixão no Elevador",
+      "key": "videos/caixao-no-elevador.mp4",
+      "bytes": 111568579,
+      "sha256": "50f19aad775d502c17d1b18cb1ad5946a356eb60def10c8554ce4fa4a7e14b8c",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/backgrounds-user-v1/video-caixao-no-elevador.mp4"
+    },
+    {
+      "id": "video-cobra-no-banheiro",
+      "kind": "video",
+      "name": "Cobra no Banheiro",
+      "key": "videos/cobra-no-banheiro.mp4",
+      "bytes": 55725747,
+      "sha256": "97dd829704cd15e3c3677d8134d76cf2206a6bd02b314275c49e90412ba859a6",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/backgrounds-user-v1/video-cobra-no-banheiro.mp4"
+    },
+    {
+      "id": "video-pegadinhas-de-elevador",
+      "kind": "video",
+      "name": "Pegadinhas de Elevador — Compilados",
+      "key": "videos/pegadinhas-de-elevador.mp4",
+      "bytes": 126113431,
+      "sha256": "66d4271a3a8e450ecb4509e7a384112c29bc6ab35403df5c10e276515ad710cf",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/backgrounds-user-v1/video-pegadinhas-de-elevador.mp4"
+    },
+    {
+      "id": "video-buraco-no-parque",
+      "kind": "video",
+      "name": "Buraco no Parque",
+      "key": "videos/buraco-no-parque.mp4",
+      "bytes": 132859785,
+      "sha256": "9a4984a3f9d48d2296be705de9813018d52062245c0ae9bcf0f3d7176624aabe",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/backgrounds-user-v1/video-buraco-no-parque.mp4"
     }
   ],
   "retired": [

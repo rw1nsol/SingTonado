@@ -14,11 +14,13 @@ Version **1.9.1** adds three optional soundfonts and removes the four-bank limit
 - [Installation](docs/INSTALL.md)
 - [Updates and publishing](docs/UPDATES.md)
 
-The current in-app catalogue contains **47,679 MIDI/KAR files**, **11 sound banks**, and **16 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs are retained with permanent random SingTonado numbers, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-update-190-v1/SONG-NUMBERS.csv).
+The current in-app catalogue contains **47,679 MIDI/KAR files**, **11 sound banks**, and **20 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs are retained with permanent random SingTonado numbers, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-update-190-v1/SONG-NUMBERS.csv).
 
 [SingTonado numbering and migration](docs/SONG-NUMBERS.md): use app 1.8.0 or later, finish DOWNLOAD SONGS, and reopen the app. Current songs change numbers once; future additions get random unused numbers while existing numbers stay fixed. Favorites, history, playlists and saved lyric fixes use the app's one-time migration. Export Songbook again after downloading.
 
 The latest song-library update adds **Bluer Than Blue — Barry Manilow (81056)** and **1963 — New Order (52024)**. Open DOWNLOAD SONGS → Download / resume, let it finish, then reopen the app. Existing song numbers stay fixed. [Addition audit](docs/LIBRARY-UPDATE-1.9.md).
+
+Four additional supplied videos are available through DOWNLOAD SONGS, bringing the background catalogue to **20 videos**. [Background download instructions and sizes](docs/BACKGROUNDS.md).
 
 Older library releases and the original base offline ZIP are historical snapshots. They include instrumental songs excluded from the current catalogue. Use the in-app downloader for the current filtered library.
 

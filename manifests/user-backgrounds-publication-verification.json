@@ -1,0 +1,44 @@
+{
+  "resource_release": "backgrounds-user-v1",
+  "latest_feed_verified": true,
+  "new_videos": [
+    {
+      "id": "video-caixao-no-elevador",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "sha256": "50f19aad775d502c17d1b18cb1ad5946a356eb60def10c8554ce4fa4a7e14b8c",
+      "bytes": 111568579
+    },
+    {
+      "id": "video-cobra-no-banheiro",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "sha256": "97dd829704cd15e3c3677d8134d76cf2206a6bd02b314275c49e90412ba859a6",
+      "bytes": 55725747
+    },
+    {
+      "id": "video-pegadinhas-de-elevador",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "sha256": "66d4271a3a8e450ecb4509e7a384112c29bc6ab35403df5c10e276515ad710cf",
+      "bytes": 126113431
+    },
+    {
+      "id": "video-buraco-no-parque",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "sha256": "9a4984a3f9d48d2296be705de9813018d52062245c0ae9bcf0f3d7176624aabe",
+      "bytes": 132859785
+    }
+  ],
+  "all_uploaded_asset_sha256_verified": true,
+  "videos_total": 20,
+  "resource_entries": 92,
+  "all_previous_88_resources_unchanged": true,
+  "permanent_song_number_registry_unchanged": true,
+  "songs": 47679,
+  "sound_banks": 11,
+  "app_binary_unchanged": "1.9.1",
+  "background_player_muted_verified_in_code": true,
+  "phone_runtime_tested": false
+}

@@ -40,3 +40,7 @@ Use app 1.8.0 or later and finish DOWNLOAD SONGS → Download / resume. Reopen t
 ## Additional soundfonts
 
 Version 1.9.1 lists all downloaded banks. Refresh the catalogue with DOWNLOAD SONGS, then use Settings → Sound to download and select KaraOke King v2, Platinum 3.1 (Arkyn), or Yamaha x Korg x Ketron x Dream Sam (JC). See [sizes and validation](SOUNDFONTS.md).
+
+## Additional background videos
+
+Open DOWNLOAD SONGS → Download / resume, let it finish, then use Settings → Background. Four supplied videos are added to the existing catalogue (20 total). If Light is enabled, enable video downloads in Settings. No new APK is needed. See [background resources](BACKGROUNDS.md).

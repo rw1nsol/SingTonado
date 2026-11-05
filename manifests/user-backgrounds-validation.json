@@ -1,0 +1,154 @@
+[
+  {
+    "id": "video-caixao-no-elevador",
+    "name": "Caixão no Elevador",
+    "original_file": "Câmera Escondida_ Caixão no Elevador_1080p.mp4",
+    "asset": "video-caixao-no-elevador.mp4",
+    "bytes": 111568579,
+    "sha256": "50f19aad775d502c17d1b18cb1ad5946a356eb60def10c8554ce4fa4a7e14b8c",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "494.886893"
+      }
+    },
+    "sample_decode_checks": "start, middle and end passed",
+    "phone_runtime_tested": false
+  },
+  {
+    "id": "video-cobra-no-banheiro",
+    "name": "Cobra no Banheiro",
+    "original_file": "Cobra no Banheiro _ Câmeras Escondidas (21_07_23)_1080p.mp4",
+    "asset": "video-cobra-no-banheiro.mp4",
+    "bytes": 55725747,
+    "sha256": "97dd829704cd15e3c3677d8134d76cf2206a6bd02b314275c49e90412ba859a6",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "r_frame_rate": "30000/1001"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "135.720635"
+      }
+    },
+    "sample_decode_checks": "start, middle and end passed",
+    "phone_runtime_tested": false
+  },
+  {
+    "id": "video-pegadinhas-de-elevador",
+    "name": "Pegadinhas de Elevador — Compilados",
+    "original_file": "Pegadinhas de Elevador - Compilados _ Câmeras Escondidas_720p.mp4",
+    "asset": "video-pegadinhas-de-elevador.mp4",
+    "bytes": 126113431,
+    "sha256": "66d4271a3a8e450ecb4509e7a384112c29bc6ab35403df5c10e276515ad710cf",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "level": 31,
+          "r_frame_rate": "30000/1001"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "862.017596"
+      }
+    },
+    "sample_decode_checks": "start, middle and end passed",
+    "phone_runtime_tested": false
+  },
+  {
+    "id": "video-buraco-no-parque",
+    "name": "Buraco no Parque",
+    "original_file": "Buraco no Parque _ Câmeras Escondidas (22_01_25)_1080p.mp4",
+    "asset": "video-buraco-no-parque.mp4",
+    "bytes": 132859785,
+    "sha256": "9a4984a3f9d48d2296be705de9813018d52062245c0ae9bcf0f3d7176624aabe",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "r_frame_rate": "30000/1001"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": "241.324989"
+      }
+    },
+    "sample_decode_checks": "start, middle and end passed",
+    "phone_runtime_tested": false
+  }
+]

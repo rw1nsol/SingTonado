@@ -33,3 +33,7 @@ songs; see docs/LIBRARY-UPDATE-1.9.md and the current complete release index.
 Upstream lyric-search databases use upstream numeric docids. Do not publish a raw
 upstream lyrics DB after SingTonado renumbering; rebuild or remap its search index
 to the current SingTonado numbers first.
+
+Preserve the four user-supplied background videos in `backgrounds-user-v1`; the
+background catalogue has 20 videos. These are video resources, not numbered songs.
+Keep the background player muted and preserve existing download modes.
