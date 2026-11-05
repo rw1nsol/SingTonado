@@ -1,0 +1,15 @@
+{
+  "resource_release": "library-update-190-v1",
+  "latest_public_feed_verified": true,
+  "anonymous_new_pack_download_and_payload_sha256_verified": true,
+  "all_release_asset_sha256_verified": true,
+  "new_songs": 2,
+  "current_songs": 47679,
+  "existing_47677_assignments_unchanged": true,
+  "migration_map_unchanged": true,
+  "previous_87_resources_unchanged": true,
+  "total_resource_entries": 88,
+  "sound_banks": 11,
+  "app_binary_unchanged": "1.9.1",
+  "phone_runtime_tested": false
+}

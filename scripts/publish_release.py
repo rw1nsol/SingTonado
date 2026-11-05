@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse,hashlib,json,subprocess,shutil,os,re
 from apk_metadata import inspect_apk
 from validate_manifest import validate_manifest
+from number_songs import validate_registry
 
 def main():
     parser=argparse.ArgumentParser()
@@ -28,6 +29,7 @@ def main():
     registry_path=repo_root/'manifests/song-number-registry.json'
     if registry_path.exists():
         registry=json.loads(registry_path.read_text(encoding='utf-8'))
+        validate_registry(registry)
         expected={source:row['number'] for source,row in registry['songs'].items()}
         if manifest.get('renumber',{}).get('map')!=expected:
             raise ValueError('Resource feed must retain the permanent SingTonado number registry')

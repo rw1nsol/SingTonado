@@ -1,9 +1,25 @@
 import copy, random, unittest
-from number_songs import assign_numbers
+from number_songs import assign_numbers, assign_additions, validate_registry
 from validate_manifest import validate_manifest
 
 
 class NumberingTests(unittest.TestCase):
+    def test_renumbered_upstream_additions_cannot_overwrite_legacy_ids(self):
+        registry = assign_numbers({}, ['10001', '10002'], rng=random.Random(1))
+        old = copy.deepcopy(registry['songs'])
+        new = {'sha256': 'a' * 64, 'source_code': '10001', 'file': '10001 - New - Singer.mid',
+               'source_version': 'upstream-new', 'title': 'New', 'artist': 'Singer'}
+        assign_additions(registry, [new], random.Random(3))
+        self.assertEqual(registry['songs'], old)
+        number = registry['additions'][new['sha256']]['number']
+        self.assertNotEqual(number, '10001')
+        assign_additions(registry, [dict(new, source_code='40000')], random.Random(4))
+        self.assertEqual(registry['additions'][new['sha256']]['number'], number)
+        self.assertEqual(len(registry['additions']), 1)
+        assign_numbers(registry, ['10003'], rng=random.Random(5))
+        self.assertNotEqual(registry['songs']['10003']['number'], number)
+        validate_registry(registry)
+
     def test_unique_different_and_reserved_numbers(self):
         blocked = [str(n) for n in range(60000, 78000)]
         registry = assign_numbers({}, range(10000, 58000), blocked, random.Random(1))

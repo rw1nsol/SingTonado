@@ -9,6 +9,55 @@ import argparse, copy, csv, datetime, hashlib, json, random, re, zipfile
 MIGRATION_ID = 'singtonado-numbering-v1'
 
 
+def validate_registry(registry):
+    rows = list(registry.get('songs', {}).values()) + list(registry.get('additions', {}).values())
+    numbers = [row['number'] for row in rows]
+    if any(not isinstance(n, str) or not re.fullmatch(r'\d{5}', n) or not 10000 <= int(n) < 90000 for n in numbers):
+        raise ValueError('Invalid permanent SingTonado number')
+    if len(numbers) != len(set(numbers)):
+        raise ValueError('Duplicate permanent number across legacy songs and additions')
+    if set(numbers) & set(registry.get('blocked_source_numbers', [])):
+        raise ValueError('A permanent number overlaps a blocked retirement/source number')
+    if registry.get('migration_id') != MIGRATION_ID:
+        raise ValueError('Do not change the original migration ID')
+
+
+def assign_additions(registry, entries, rng=None):
+    """Use content identities when upstream has reused/renumbered legacy codes.
+
+    Newly arriving files already carry their SingTonado numbers. Do not put
+    reused upstream numbers into the original one-time migration map.
+    """
+    validate_registry(registry)
+    rng = rng or random.SystemRandom()
+    additions = registry.setdefault('additions', {})
+    used = {row['number'] for group in ('songs', 'additions') for row in registry.get(group, {}).values()}
+    blocked = set(registry.get('blocked_source_numbers', []))
+    unavailable = used | blocked
+    available = [str(n) for n in range(10000, 90000) if str(n) not in unavailable]
+    rng.shuffle(available)
+    for entry in entries:
+        identity = entry['sha256']
+        if not re.fullmatch(r'[0-9a-f]{64}', identity):
+            raise ValueError('A new song needs a stable SHA-256 identity')
+        if identity in additions:
+            continue
+        if not available:
+            raise ValueError('Five-digit number space exhausted')
+        source = str(entry['source_code'])
+        if available[-1] == source:
+            other = next((i for i, n in enumerate(available) if n != source), None)
+            if other is None:
+                raise ValueError('No number different from the upstream source remains')
+            available[-1], available[other] = available[other], available[-1]
+        additions[identity] = dict(number=available.pop(), sha256=identity,
+            source_code=source, source_file=entry['file'], source_version=entry['source_version'],
+            title=entry['title'], artist=entry['artist'])
+    registry['schema'] = 2
+    validate_registry(registry)
+    return registry
+
+
 def assign_numbers(registry, sources, blocked=(), rng=None):
     rng = rng or random.SystemRandom()
     rows = registry.setdefault('songs', {})
@@ -16,8 +65,9 @@ def assign_numbers(registry, sources, blocked=(), rng=None):
     registry.setdefault('migration_id', MIGRATION_ID)
     if registry['migration_id'] != MIGRATION_ID:
         raise ValueError('Do not change the migration ID or shuffle existing assignments')
-    used = {int(row['number']) for row in rows.values()}
-    if len(used) != len(rows):
+    all_rows = list(rows.values()) + list(registry.get('additions', {}).values())
+    used = {int(row['number']) for row in all_rows}
+    if len(used) != len(all_rows):
         raise ValueError('Duplicate number in permanent registry')
     forbidden = {int(n) for n in blocked}
     if used & forbidden:

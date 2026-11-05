@@ -23,3 +23,13 @@ Keep all 11 downloadable sound banks available in Sound. Do not restore the
 four-item truncation in SoundManager.options when rebasing on upstream updates.
 The three user-supplied banks are optional downloads; retain their names, file
 checksums and creator metadata. See docs/SOUNDFONTS.md.
+
+For renumbered upstream catalogues, compare content and title/artist aliases first.
+Keep original numeric registry rows and migration map untouched. Register new
+content with SHA-256 identities in `additions` using `assign_additions()`; both
+registry sections reserve numbers permanently. The current library has 47,679
+songs; see docs/LIBRARY-UPDATE-1.9.md and the current complete release index.
+
+Upstream lyric-search databases use upstream numeric docids. Do not publish a raw
+upstream lyrics DB after SingTonado renumbering; rebuild or remap its search index
+to the current SingTonado numbers first.

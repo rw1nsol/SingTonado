@@ -1,7 +1,7 @@
 {
-  "version": "resources-user-soundfonts-e2a9d52972f14bbf",
-  "built": "2026-11-05T00:15:04.689660Z",
-  "bytes": 4879025949,
+  "version": "resources-new-songs-fe0f1365d288f5e4",
+  "built": "2026-11-05T00:38:59.622905Z",
+  "bytes": 4879038764,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -859,6 +859,16 @@
       "bytes": 948538844,
       "sha256": "0279532a2886954e851a10d27c9b97af18ee6425759daa5d2f2d9ae606ba7d5a",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-yamaha-korg-ketron-dreamsam-jc.sf2"
+    },
+    {
+      "id": "songs-update-190-01",
+      "kind": "songs",
+      "name": "New songs 1.9",
+      "category": "INTERNATIONAL",
+      "key": "packs/singtonado-new-songs-190-01.zip",
+      "bytes": 12815,
+      "sha256": "8b3691bd7445be9b95f657a03c25ae31baf9cec4d89406444af43f1df0f14049",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-update-190-v1/singtonado-new-songs-190-01.zip"
     }
   ],
   "retired": [
@@ -2659,7 +2669,7 @@
       "Update the app, open DOWNLOAD SONGS once to refresh the catalogue, then Settings → Sound → Download beside the desired bank. Select it after its download finishes.",
       "The three files are optional downloads of about 99 MB, 141 MB and 949 MB; the catalogue now contains 11 sound banks.",
       "All three banks passed SoundFont structure checks and native desktop FluidSynth playback renders. Phone playback has not been device-tested.",
-      "Preserves all 1.9.0 features and the current 47,677-song permanent number mapping. No additional upstream song packs are included in this release."
+      "Library refresh: two new lyric-bearing songs; permanent SingTonado numbers are unchanged for existing songs. Open DOWNLOAD SONGS to get them."
     ],
     "minSdk": 26
   },

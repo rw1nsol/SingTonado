@@ -1,0 +1,61 @@
+{
+  "source_app": "Kara-okay 1.9.0",
+  "source_manifest_version": "91e7a76ff8f84b9b",
+  "source_song_packs_checked": 57,
+  "source_song_files_checked": 47904,
+  "initial_comparison": {
+    "source_song_files": 47904,
+    "already_present_content": 27507,
+    "already_present_title_artist": 14923,
+    "excluded_prior_source_or_lyric_filter": 4906,
+    "new_candidate": 567,
+    "duplicate_new_candidate": 1
+  },
+  "candidate_identity_review": {
+    "title_and_artist_alias_already_present": 385,
+    "upstream_identity_already_present": 178,
+    "withdrawn_title_and_artist_alias": 1,
+    "existing_collaborator_credit_alias": 1,
+    "candidate_after_alias_check": 2
+  },
+  "added_songs": [
+    {
+      "number": "81056",
+      "source_number": "27572",
+      "title": "Bluer Than Blue",
+      "artist": "Barry Manilow",
+      "pack": "songs-update-190-01",
+      "file": "02 International/81056 - Bluer Than Blue - Barry Manilow.mid",
+      "source_file": "02 International/27572 - Bluer Than Blue - Barry Manilow.mid",
+      "sha256": "a20e5954da54d4b557f6b0636e659b60829843aab4c17aa713b62c83486e235c",
+      "source_version": "91e7a76ff8f84b9b",
+      "lyric_events": 257,
+      "timed_lyric_events": 257
+    },
+    {
+      "number": "52024",
+      "source_number": "41937",
+      "title": "1963",
+      "artist": "New Order",
+      "pack": "songs-update-190-01",
+      "file": "02 International/52024 - 1963 - New Order.mid",
+      "source_file": "02 International/41937 - 1963 - New Order.mid",
+      "sha256": "3b8fe578cb12f8da0e876f89c21ca41f2e1685a5b1ee51d0d28451d2eec077fb",
+      "source_version": "91e7a76ff8f84b9b",
+      "lyric_events": 407,
+      "timed_lyric_events": 407
+    }
+  ],
+  "previous_song_count": 47677,
+  "current_song_count": 47679,
+  "original_numbers_unchanged": true,
+  "original_migration_map_unchanged": true,
+  "all_previous_87_resource_entries_unchanged": true,
+  "sound_banks": 11,
+  "videos": 16,
+  "new_pack_crc_and_payload_sha256_verified": true,
+  "strict_midi_note_comparison_reference_files": 65302,
+  "strict_midi_note_comparison_unreadable_or_unsupported_files": 52,
+  "no_exact_note_performance_match_for_final_candidates": true,
+  "phone_runtime_tested": false
+}

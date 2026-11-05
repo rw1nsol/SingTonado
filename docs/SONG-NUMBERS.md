@@ -6,7 +6,7 @@ The managed catalogue uses unique random five-digit SingTonado numbers from 1000
 
 Use SingTonado 1.8.0 or later so saved song references can migrate. Open DOWNLOAD SONGS → Download / resume, let all packs finish, then reopen the app. The app maps existing favorites, history, playlists and saved lyric fixes to the new numbers once. During the refresh, songs whose replacement pack is still pending may be temporarily unavailable. Personally imported or manually copied folders are outside the managed library and keep their own filenames/numbers; disable an old copied library folder if it appears alongside the managed catalogue.
 
-Search by title or artist to find a song again. Reopen Songbook and export a fresh PDF; existing printed or exported songbooks keep their old numbers. [Current SingTonado number index](https://github.com/rw1nsol/SingTonado/releases/download/library-singtonado-numbers-v1/SONG-NUMBERS.csv) includes the old-to-new mapping.
+Search by title or artist to find a song again. Reopen Songbook and export a fresh PDF; existing printed or exported songbooks keep their old numbers. [Current SingTonado number index](https://github.com/rw1nsol/SingTonado/releases/download/library-update-190-v1/SONG-NUMBERS.csv) includes the old-to-new mapping.
 
 This is a resource-library update. The APK version can remain 1.8.0 while the song packs refresh.
 
@@ -32,3 +32,9 @@ The migration ID stays fixed when the map gains entries: existing users have alr
 ## Verification
 
 The release rebuild is checked against all 47,677 current files, requiring unique changed numbers, unchanged song bytes, no reserved/retired-number collisions, and the same 25 non-song resources. Automated tests cover permanent assignments when adding songs, idempotent reruns, uniqueness and invalid manifests. The existing 1.8.0 code contains the one-time migration of favorites, history, playlists and lyric fixes. Phone migration has not been runtime-tested.
+
+## Renumbered upstream catalogues
+
+The upstream 1.9 catalogue reused its numbers for different songs. Preserve the numeric `songs` section and its original one-time migration map. New content identities belong in the registry's SHA-256-keyed `additions` section and receive numbers through `assign_additions()` in `scripts/number_songs.py`. Allocation reserves numbers from both sections, never overwrites a legacy source ID, and reuses the same assignment when an upstream file is renumbered again. Additions arrive already numbered in their ZIP filenames, so they do not extend the original migration map.
+
+The current complete index contains 47,679 songs, including the two additions documented in [the 1.9 library audit](LIBRARY-UPDATE-1.9.md). Old songbook PDFs remain snapshots; export again after downloading the new pack.

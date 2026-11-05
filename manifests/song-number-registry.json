@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "migration_id": "singtonado-numbering-v1",
   "songs": {
     "10001": {
@@ -257241,5 +257241,25 @@
     "77819",
     "77820",
     "77821"
-  ]
+  ],
+  "additions": {
+    "a20e5954da54d4b557f6b0636e659b60829843aab4c17aa713b62c83486e235c": {
+      "number": "81056",
+      "sha256": "a20e5954da54d4b557f6b0636e659b60829843aab4c17aa713b62c83486e235c",
+      "source_code": "27572",
+      "source_file": "02 International/27572 - Bluer Than Blue - Barry Manilow.mid",
+      "source_version": "91e7a76ff8f84b9b",
+      "title": "Bluer Than Blue",
+      "artist": "Barry Manilow"
+    },
+    "3b8fe578cb12f8da0e876f89c21ca41f2e1685a5b1ee51d0d28451d2eec077fb": {
+      "number": "52024",
+      "sha256": "3b8fe578cb12f8da0e876f89c21ca41f2e1685a5b1ee51d0d28451d2eec077fb",
+      "source_code": "41937",
+      "source_file": "02 International/41937 - 1963 - New Order.mid",
+      "source_version": "91e7a76ff8f84b9b",
+      "title": "1963",
+      "artist": "New Order"
+    }
+  }
 }

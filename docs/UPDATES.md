@@ -22,7 +22,7 @@ The script creates a draft release, uploads `SingTonado.apk` and `manifest.json`
 
 ## Library hosting
 
-`library-v1` holds the original complete ZIP and original packs/media. The current feed uses 59 renumbered original-library song packs in `library-singtonado-numbers-v1`, plus 28 non-song entries. Three optional user-supplied banks are in `soundfonts-user-v1`. `library-original-only-v1` documents the withdrawal and current song list. `manifests/resources.json` holds the public URLs and expected checksums. Keep resource releases marked as not latest so the latest-release feed resolves to an app release.
+`library-v1` holds the original complete ZIP and original packs/media. The current feed uses 59 renumbered original-library song packs in `library-singtonado-numbers-v1`, a two-song pack in `library-update-190-v1`, and 28 non-song entries. Three optional user-supplied banks are in `soundfonts-user-v1`. `library-original-only-v1` documents the withdrawal and current song list. `manifests/resources.json` holds the public URLs and expected checksums. Keep resource releases marked as not latest so the latest-release feed resolves to an app release.
 
 ## Version labels
 
@@ -31,3 +31,5 @@ The main tab, Settings, About and update notification read shared BuildConfig fi
 ## Song numbering must persist
 
 Preserve `manifests/song-number-registry.json` in every future release. Process source song packs with `scripts/number_songs.py` before publication: new songs receive random unused numbers and existing songs retain their SingTonado numbers. Keep the migration ID stable. The app publisher checks that the feed map matches the permanent registry. See [the numbering workflow](SONG-NUMBERS.md).
+
+When upstream reuses source numbers, register additions by SHA-256 with `assign_additions()` rather than overwriting numeric legacy source keys. The original migration map/ID stays fixed; the global number pool includes both registry sections. See [the 1.9 song audit](LIBRARY-UPDATE-1.9.md).
