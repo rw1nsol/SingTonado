@@ -1,0 +1,35 @@
+{
+  "version": "1.9.1",
+  "versionCode": 25,
+  "latest_feed_verified": true,
+  "public_apk_sha256_verified": "a948f6fbbaf2b6fe74ac386afe2cf763715f9cbc6e788a3ef91dfc4776bd4dcb",
+  "resource_entries": 87,
+  "sound_banks": 11,
+  "new_soundfont_downloads": [
+    {
+      "id": "sf-karaoke-king-v2",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "native_render_passed": true,
+      "sha256": "8862381c105be29202f99f2b3441fead25cfd94b0d33c5e0ecfdc58d8a2cd391"
+    },
+    {
+      "id": "sf-platinum-3-1-arkyn",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "native_render_passed": true,
+      "sha256": "795e72be5fd0ac531adb47b2b5cd6b482f2410e3c7e12ea5482c7e6038c97795"
+    },
+    {
+      "id": "sf-yamaha-korg-ketron-dreamsam-jc",
+      "anonymous_download_verified": true,
+      "http_status": 206,
+      "native_render_passed": true,
+      "sha256": "0279532a2886954e851a10d27c9b97af18ee6425759daa5d2f2d9ae606ba7d5a"
+    }
+  ],
+  "prior_84_resources_unchanged": true,
+  "permanent_song_numbers_unchanged": 47677,
+  "upstream_new_song_packs_added": 0,
+  "phone_runtime_tested": false
+}

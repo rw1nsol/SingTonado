@@ -1,0 +1,45 @@
+{
+  "versionCode": 25,
+  "versionName": "1.9.1",
+  "package": "app.singtonado",
+  "minSdkVersion": 26,
+  "apk": "SingTonado-1.9.1.apk",
+  "bytes": 28542915,
+  "sha256": "a948f6fbbaf2b6fe74ac386afe2cf763715f9cbc6e788a3ef91dfc4776bd4dcb",
+  "same_signing_certificate_as_1_6_13": true,
+  "signature_verified": true,
+  "alignment_verified": true,
+  "archive_crc_verified": true,
+  "branding_scan": "passed",
+  "preserved_upstream_framework_audio_fonts_and_support_files": 47,
+  "upstream_native_audio_code_preserved": [
+    {
+      "abi": "arm64-v8a",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    },
+    {
+      "abi": "armeabi-v7a",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    },
+    {
+      "abi": "x86_64",
+      "jni_exports_renamed": 31,
+      "machine_code_unchanged": true,
+      "symbol_lookup_verified": true
+    }
+  ],
+  "custom_startup_dex_unchanged": true,
+  "phone_runtime_tested": false,
+  "sound_selector_truncation_removed": true,
+  "app_classes_checked": 3565,
+  "method_references_checked": 104318,
+  "resource_entries": 87,
+  "sound_banks": 11,
+  "previous_84_resource_entries_unchanged": true,
+  "permanent_song_number_mapping_unchanged": true,
+  "three_user_soundfonts_native_render_passed": true
+}

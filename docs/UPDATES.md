@@ -15,14 +15,14 @@ The updater checks that an APK is for `app.singtonado`, is newer than the instal
 Build and sign the APK using the existing private SingTonado key. Increase the Android version code for every published update. Authenticate GitHub CLI as an account with repository write access, then run:
 
 ```text
-python scripts/publish_release.py --apk PATH_TO_SIGNED_APK --version-name 1.9.0 --version-code 24 --notes PATH_TO_NOTES.md
+python scripts/publish_release.py --apk PATH_TO_SIGNED_APK --version-name 1.9.1 --version-code 25 --notes PATH_TO_NOTES.md
 ```
 
 The script creates a draft release, uploads `SingTonado.apk` and `manifest.json`, and publishes it as the latest release only after both uploads are complete. Existing installations discover the new version through the stable feed URL. Never publish the signing key, its password, account credentials, or a GitHub access token.
 
 ## Library hosting
 
-`library-v1` holds the original complete ZIP and original packs/media. The current feed reuses 59 original song packs, including filtered replacements, plus 25 non-song entries. `library-original-only-v1` documents the withdrawal and current song list. `manifests/resources.json` holds the public URLs and expected checksums. Keep resource releases marked as not latest so the latest-release feed resolves to an app release.
+`library-v1` holds the original complete ZIP and original packs/media. The current feed uses 59 renumbered original-library song packs in `library-singtonado-numbers-v1`, plus 28 non-song entries. Three optional user-supplied banks are in `soundfonts-user-v1`. `library-original-only-v1` documents the withdrawal and current song list. `manifests/resources.json` holds the public URLs and expected checksums. Keep resource releases marked as not latest so the latest-release feed resolves to an app release.
 
 ## Version labels
 

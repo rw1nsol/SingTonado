@@ -1,7 +1,7 @@
 {
-  "version": "resources-singtonado-numbers-399cc31fb3e5821c",
-  "built": "2026-11-02T22:53:56.959885Z",
-  "bytes": 3690387167,
+  "version": "resources-user-soundfonts-e2a9d52972f14bbf",
+  "built": "2026-11-05T00:15:04.689660Z",
+  "bytes": 4879025949,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -829,6 +829,36 @@
       "bytes": 30110615,
       "sha256": "cfb26fb2d27f77eaba71c2d87c41cdc643d09d4f1525190c4c7a113cefe84082",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-dumpling-squishy-bgv.mp4"
+    },
+    {
+      "id": "sf-karaoke-king-v2",
+      "kind": "soundfont",
+      "name": "KaraOke King v2",
+      "optional": true,
+      "key": "soundfonts/karaoke-king-v2.sf2",
+      "bytes": 98645536,
+      "sha256": "8862381c105be29202f99f2b3441fead25cfd94b0d33c5e0ecfdc58d8a2cd391",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-karaoke-king-v2.sf2"
+    },
+    {
+      "id": "sf-platinum-3-1-arkyn",
+      "kind": "soundfont",
+      "name": "Platinum 3.1 (Arkyn)",
+      "optional": true,
+      "key": "soundfonts/platinum-3-1-arkyn.sf2",
+      "bytes": 141454402,
+      "sha256": "795e72be5fd0ac531adb47b2b5cd6b482f2410e3c7e12ea5482c7e6038c97795",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-platinum-3-1-arkyn.sf2"
+    },
+    {
+      "id": "sf-yamaha-korg-ketron-dreamsam-jc",
+      "kind": "soundfont",
+      "name": "Yamaha x Korg x Ketron x Dream Sam (JC)",
+      "optional": true,
+      "key": "soundfonts/yamaha-korg-ketron-dreamsam-jc.sf2",
+      "bytes": 948538844,
+      "sha256": "0279532a2886954e851a10d27c9b97af18ee6425759daa5d2f2d9ae606ba7d5a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-yamaha-korg-ketron-dreamsam-jc.sf2"
     }
   ],
   "retired": [

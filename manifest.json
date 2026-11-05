@@ -1,7 +1,7 @@
 {
-  "version": "resources-singtonado-numbers-399cc31fb3e5821c",
-  "built": "2026-11-02T22:53:56.959885Z",
-  "bytes": 3690387167,
+  "version": "resources-user-soundfonts-e2a9d52972f14bbf",
+  "built": "2026-11-05T00:15:04.689660Z",
+  "bytes": 4879025949,
   "items": [
     {
       "id": "sf-generaluser-gs",
@@ -829,6 +829,36 @@
       "bytes": 30110615,
       "sha256": "cfb26fb2d27f77eaba71c2d87c41cdc643d09d4f1525190c4c7a113cefe84082",
       "url": "https://github.com/rw1nsol/SingTonado/releases/download/library-songhub-v1/video-songhub-cute-dumpling-squishy-bgv.mp4"
+    },
+    {
+      "id": "sf-karaoke-king-v2",
+      "kind": "soundfont",
+      "name": "KaraOke King v2",
+      "optional": true,
+      "key": "soundfonts/karaoke-king-v2.sf2",
+      "bytes": 98645536,
+      "sha256": "8862381c105be29202f99f2b3441fead25cfd94b0d33c5e0ecfdc58d8a2cd391",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-karaoke-king-v2.sf2"
+    },
+    {
+      "id": "sf-platinum-3-1-arkyn",
+      "kind": "soundfont",
+      "name": "Platinum 3.1 (Arkyn)",
+      "optional": true,
+      "key": "soundfonts/platinum-3-1-arkyn.sf2",
+      "bytes": 141454402,
+      "sha256": "795e72be5fd0ac531adb47b2b5cd6b482f2410e3c7e12ea5482c7e6038c97795",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-platinum-3-1-arkyn.sf2"
+    },
+    {
+      "id": "sf-yamaha-korg-ketron-dreamsam-jc",
+      "kind": "soundfont",
+      "name": "Yamaha x Korg x Ketron x Dream Sam (JC)",
+      "optional": true,
+      "key": "soundfonts/yamaha-korg-ketron-dreamsam-jc.sf2",
+      "bytes": 948538844,
+      "sha256": "0279532a2886954e851a10d27c9b97af18ee6425759daa5d2f2d9ae606ba7d5a",
+      "url": "https://github.com/rw1nsol/SingTonado/releases/download/soundfonts-user-v1/sf-yamaha-korg-ketron-dreamsam-jc.sf2"
     }
   ],
   "retired": [
@@ -2617,23 +2647,19 @@
     "24185": "19318"
   },
   "app": {
-    "versionCode": 24,
-    "versionName": "1.9.0",
-    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.9.0/SingTonado.apk",
+    "versionCode": 25,
+    "versionName": "1.9.1",
+    "apk": "https://github.com/rw1nsol/SingTonado/releases/download/v1.9.1/SingTonado.apk",
     "bytes": 28542915,
-    "sha256": "9c347a68cd12555fd714f4ab1ee98d8bec9755f59067f78bdd75b04078a41cb9",
-    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.9.0",
+    "sha256": "a948f6fbbaf2b6fe74ac386afe2cf763715f9cbc6e788a3ef91dfc4776bd4dcb",
+    "page": "https://github.com/rw1nsol/SingTonado/releases/tag/v1.9.1",
     "notes": [
-      "SingTonado 1.9.0 integrates the supplied 1.9.0 app update, Android dependencies, bundled assets and native sound engine.",
-      "Optional Video too records the singing stage as MP4 alongside the voice/music recording; the camera can be included when enabled. Recordings stay on the device until shared.",
-      "Music playback supports MP3/video folders, shuffle/repeat, full-screen playback and automatic fading/resuming around karaoke songs.",
-      "Adds a separate singing stage on compatible connected TV displays, remote admin/guest controls, phone messages and local song-file sending.",
-      "Downloads gain Light/Everything choices, storage/memory guidance, cleanup and movement of downloaded resources to a detected SD/USB location.",
-      "Sound quality offers Auto/High/Light, even loudness and optional equalizer-app support, using the updated native/Android sound engines.",
-      "Adds lyric-text search, sorting by title/singer/number/newest/size/type, playlist ordering/bulk additions, picture count-ins, photo slideshows, skip-button controls and startup-screen choices.",
-      "Preserves the SingTonado icon and animated tagline, full-color dashboard logo, text-only DOWNLOAD SONGS button, progress-only download panel and public updater.",
-      "Keeps all 47,677 permanent SingTonado song numbers and the existing 84 resource entries; withdrawn SongHub-derived songs remain excluded.",
-      "Install over the existing SingTonado app. Android 8.0 or later is required. Desktop build/static checks passed; phone hardware features have not been device-tested."
+      "SingTonado 1.9.1 adds three optional sound banks: KaraOke King v2, Platinum 3.1 (Arkyn), and Yamaha x Korg x Ketron x Dream Sam (JC).",
+      "Removes the four-bank truncation from the downloaded sound selector so all available banks remain selectable.",
+      "Update the app, open DOWNLOAD SONGS once to refresh the catalogue, then Settings → Sound → Download beside the desired bank. Select it after its download finishes.",
+      "The three files are optional downloads of about 99 MB, 141 MB and 949 MB; the catalogue now contains 11 sound banks.",
+      "All three banks passed SoundFont structure checks and native desktop FluidSynth playback renders. Phone playback has not been device-tested.",
+      "Preserves all 1.9.0 features and the current 47,677-song permanent number mapping. No additional upstream song packs are included in this release."
     ],
     "minSdk": 26
   },

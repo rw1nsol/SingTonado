@@ -6,7 +6,7 @@
 
 Android karaoke with an animated opening, song numbers, MIDI/KAR playback, sound banks, and offline resources.
 
-Version **1.9.0** adds stage-video recording, music playback between songs, TV display controls, remote administration/messages, storage options, updated sound quality controls and lyric/library improvements. The SingTonado startup, text-only DOWNLOAD SONGS button and permanent song numbers are preserved. [Update details and verification limits](docs/UPDATE-1.9.0.md).
+Version **1.9.1** adds three optional soundfonts and removes the four-bank limit from the downloaded sound selector. It includes all 1.9.0 features: stage-video recording, music playback, TV controls, remote administration/messages, storage options and sound/lyrics improvements. [Soundfont downloads](docs/SOUNDFONTS.md) | [1.9.0 features and verification limits](docs/UPDATE-1.9.0.md).
 
 - [Download the latest Android app](https://github.com/rw1nsol/SingTonado/releases/latest/download/SingTonado.apk)
 - [Current original-song library](https://github.com/rw1nsol/SingTonado/releases/tag/library-original-only-v1)
@@ -14,7 +14,7 @@ Version **1.9.0** adds stage-video recording, music playback between songs, TV d
 - [Installation](docs/INSTALL.md)
 - [Updates and publishing](docs/UPDATES.md)
 
-The current in-app catalogue contains **47,677 original-library MIDI/KAR files**, **eight sound banks**, and **16 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs are retained with permanent random SingTonado numbers, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-singtonado-numbers-v1/SONG-NUMBERS.csv).
+The current in-app catalogue contains **47,677 original-library MIDI/KAR files**, **11 sound banks**, and **16 video backgrounds**. All SongHub-derived song additions have been withdrawn from the app feed and their published song ZIPs have been deleted from GitHub releases. Original songs are retained with permanent random SingTonado numbers, with 15 original lyric-free or chord-only files excluded by the earlier filter. Sound banks, videos, notices and artwork are retained. [Library details](docs/LYRICS-FILTER.md) | [Current song-number index](https://github.com/rw1nsol/SingTonado/releases/download/library-singtonado-numbers-v1/SONG-NUMBERS.csv).
 
 [SingTonado numbering and migration](docs/SONG-NUMBERS.md): use app 1.8.0 or later, finish DOWNLOAD SONGS, and reopen the app. Current songs change numbers once; future additions get random unused numbers while existing numbers stay fixed. Favorites, history, playlists and saved lyric fixes use the app's one-time migration. Export Songbook again after downloading.
 

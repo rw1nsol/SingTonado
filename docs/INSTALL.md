@@ -2,7 +2,7 @@
 
 Requires Android 8.0 or later.
 
-The current APK is **1.9.0**, with stage-video recording, a music player, TV stage controls, remote roles/messages, storage choices, new sound quality controls and lyric/library improvements. Install over the existing app without uninstalling. DOWNLOAD SONGS stays text-only, and the dashboard picture stays full-color in every theme. See [the feature update guide](UPDATE-1.9.0.md).
+The current APK is **1.9.1**, with stage-video recording, a music player, TV stage controls, remote roles/messages, storage choices, new sound quality controls and lyric/library improvements. Install over the existing app without uninstalling. DOWNLOAD SONGS stays text-only, and the dashboard picture stays full-color in every theme. See [the feature update guide](UPDATE-1.9.0.md).
 
 1. Download `SingTonado.apk` from the latest app release.
 2. Open it and complete Android's installation prompts. If asked, allow installation from the app used to download this APK.
@@ -36,3 +36,7 @@ adb shell am start -n app.singtonado/sing.tona.MainActivity
 ## New SingTonado song numbers
 
 Use app 1.8.0 or later and finish DOWNLOAD SONGS → Download / resume. Reopen the app after the packs finish. Existing saved song references migrate once; search by title/artist or export Songbook again to find the new permanent numbers. See [song numbering](SONG-NUMBERS.md).
+
+## Additional soundfonts
+
+Version 1.9.1 lists all downloaded banks. Refresh the catalogue with DOWNLOAD SONGS, then use Settings → Sound to download and select KaraOke King v2, Platinum 3.1 (Arkyn), or Yamaha x Korg x Ketron x Dream Sam (JC). See [sizes and validation](SOUNDFONTS.md).

@@ -1,0 +1,7 @@
+--- SoundManager.options-before
++++ SoundManager.options-after
+@@ -1,3 +1 @@
+-    const/4 v3, 0x4
+-
+-    invoke-static {v2, v3}, Lkotlin/collections/CollectionsKt;->take(Ljava/lang/Iterable;I)Ljava/util/List;
++    invoke-static {v2}, Lkotlin/collections/CollectionsKt;->toList(Ljava/lang/Iterable;)Ljava/util/List;

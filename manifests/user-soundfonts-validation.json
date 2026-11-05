@@ -1,0 +1,87 @@
+[
+  {
+    "id": "sf-karaoke-king-v2",
+    "name": "KaraOke King v2",
+    "original_file": "KaraOke_King_v2.sf2",
+    "asset": "sf-karaoke-king-v2.sf2",
+    "bytes": 98645536,
+    "sha256": "8862381c105be29202f99f2b3441fead25cfd94b0d33c5e0ecfdc58d8a2cd391",
+    "riff_structure_verified": true,
+    "preset_count": 234,
+    "sample_count": 930,
+    "gm_programs": 128,
+    "drum_presets": 12,
+    "native_render_passed": true,
+    "render_peak": 1502,
+    "render_seconds": 4.9458503401360545,
+    "sf2_info": {
+      "version": [
+        2,
+        4
+      ],
+      "isng": "E-mu 10K1",
+      "INAM": "KaraOke_King.sf2",
+      "ICRD": "2026-10-03T12:33:23Z",
+      "IENG": "KaraOke King",
+      "IPRD": "KaraOke King",
+      "ICOP": "SMARTCALWORX",
+      "ICMT": "2026 Copyright \nSMARTCALWORX\nKaraOke King Default SoundFont",
+      "ISFT": "SpessaFont 1.4.16"
+    }
+  },
+  {
+    "id": "sf-platinum-3-1-arkyn",
+    "name": "Platinum 3.1 (Arkyn)",
+    "original_file": "Platinum ver. 3.1 (custom made by arkyn).sf2",
+    "asset": "sf-platinum-3-1-arkyn.sf2",
+    "bytes": 141454402,
+    "sha256": "795e72be5fd0ac531adb47b2b5cd6b482f2410e3c7e12ea5482c7e6038c97795",
+    "riff_structure_verified": true,
+    "preset_count": 294,
+    "sample_count": 1225,
+    "gm_programs": 128,
+    "drum_presets": 26,
+    "native_render_passed": true,
+    "render_peak": 1828,
+    "render_seconds": 4.760090702947846,
+    "sf2_info": {
+      "version": [
+        2,
+        1
+      ],
+      "isng": "EMU8000",
+      "INAM": "Dream SAM2634 ver. 2.sf2",
+      "ICRD": "12/4/2025 6:32:08 AM",
+      "IPRD": "SynthFont Viena",
+      "ISFT": "Polyphone"
+    }
+  },
+  {
+    "id": "sf-yamaha-korg-ketron-dreamsam-jc",
+    "name": "Yamaha x Korg x Ketron x Dream Sam (JC)",
+    "original_file": "yamaha_x_korg_x_ketron_x_dream_sam_(custom_made_by_jc).sf2",
+    "asset": "sf-yamaha-korg-ketron-dreamsam-jc.sf2",
+    "bytes": 948538844,
+    "sha256": "0279532a2886954e851a10d27c9b97af18ee6425759daa5d2f2d9ae606ba7d5a",
+    "riff_structure_verified": true,
+    "preset_count": 362,
+    "sample_count": 5316,
+    "gm_programs": 128,
+    "drum_presets": 19,
+    "native_render_passed": true,
+    "render_peak": 1319,
+    "render_seconds": 4.249251700680272,
+    "sf2_info": {
+      "version": [
+        2,
+        1
+      ],
+      "INAM": "Just t4, 1.0",
+      "isng": "EMU8000",
+      "ISFT": "Polyphone",
+      "ICOP": "c 2018 mpj factory studios, quto, ecuador",
+      "IENG": "Milton Paredes",
+      "ICMT": "Yamaha tyros 4 gm soundfont"
+    }
+  }
+]

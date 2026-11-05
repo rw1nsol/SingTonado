@@ -18,3 +18,8 @@ and the existing lyric filter when updating sources. Keep authorized non-song
 resources and SingTonado branding. Never commit signing keys or credentials.
 Keep DOWNLOAD SONGS text-only in every layout, with no heart icon, and retain its
 progress-only download panel when integrating newer upstream app versions.
+
+Keep all 11 downloadable sound banks available in Sound. Do not restore the
+four-item truncation in SoundManager.options when rebasing on upstream updates.
+The three user-supplied banks are optional downloads; retain their names, file
+checksums and creator metadata. See docs/SOUNDFONTS.md.
